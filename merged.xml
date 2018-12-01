@@ -1,0 +1,3703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Data><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="DLD">
+  <flights lastUpdate="2018-12-01T09:15:26Z">
+  </flights>
+</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="OSL">
+  <flights lastUpdate="2018-12-01T09:15:26Z">
+    <flight uniqueID="8103421">
+      <airline>SK</airline>
+      <flight_id>SK9158</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-27T03:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>5 6</check_in>
+      <gate>PAD</gate>
+    </flight>
+    <flight uniqueID="8103405">
+      <airline>DY</airline>
+      <flight_id>DY9948</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-27T03:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>3</check_in>
+      <gate>PAD</gate>
+    </flight>
+    <flight uniqueID="8103403">
+      <airline>DY</airline>
+      <flight_id>DY9947</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-27T03:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+      <check_in>3</check_in>
+      <gate>PAD</gate>
+    </flight>
+    <flight uniqueID="8103407">
+      <airline>DY</airline>
+      <flight_id>DY9947</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-28T03:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+      <check_in>3</check_in>
+      <gate>B5</gate>
+      <status code="D" time="2018-11-28T04:51:00Z"/>
+      <delayed>Y</delayed>
+    </flight>
+    <flight uniqueID="8103409">
+      <airline>DY</airline>
+      <flight_id>DY9948</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-28T03:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>3</check_in>
+      <gate>B5</gate>
+      <status code="D" time="2018-11-28T04:51:00Z"/>
+      <delayed>Y</delayed>
+    </flight>
+    <flight uniqueID="8105898">
+      <airline>SK</airline>
+      <flight_id>SK3645</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-11-29T05:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FRA</airport>
+      <check_in>5</check_in>
+    </flight>
+    <flight uniqueID="8106343">
+      <airline>AY</airline>
+      <flight_id>AY2681</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-29T21:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>HOV</airport>
+      <check_in>5 6</check_in>
+      <gate>A27</gate>
+      <status code="D" time="2018-11-28T22:15:00Z"/>
+    </flight>
+    <flight uniqueID="8082917">
+      <airline>DY</airline>
+      <flight_id>DY744</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T07:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>3</check_in>
+      <gate>A19</gate>
+      <status code="D" time="2018-12-01T07:56:00Z"/>
+    </flight>
+    <flight uniqueID="8082856">
+      <airline>DY</airline>
+      <flight_id>DY360</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T07:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>EVE</airport>
+      <check_in>3</check_in>
+      <gate>C8</gate>
+      <status code="D" time="2018-12-01T07:54:00Z"/>
+    </flight>
+    <flight uniqueID="8082898">
+      <airline>DY</airline>
+      <flight_id>DY606</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T07:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>3</check_in>
+      <gate>A2</gate>
+      <status code="D" time="2018-12-01T07:51:00Z"/>
+    </flight>
+    <flight uniqueID="8082850">
+      <airline>DY</airline>
+      <flight_id>DY340</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+      <check_in>3</check_in>
+      <gate>A15</gate>
+      <status code="D" time="2018-12-01T08:24:00Z"/>
+      <delayed>Y</delayed>
+    </flight>
+    <flight uniqueID="8082774">
+      <airline>DY</airline>
+      <flight_id>DY1040</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T08:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KRK</airport>
+      <check_in>3</check_in>
+      <gate>D10</gate>
+      <status code="D" time="2018-12-01T07:55:00Z"/>
+    </flight>
+    <flight uniqueID="8082866">
+      <airline>DY</airline>
+      <flight_id>DY370</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+      <check_in>3</check_in>
+      <gate>B2</gate>
+      <status code="D" time="2018-12-01T07:56:00Z"/>
+    </flight>
+    <flight uniqueID="8082802">
+      <airline>DY</airline>
+      <flight_id>DY1740</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T08:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BCN</airport>
+      <check_in>3</check_in>
+      <gate>E14</gate>
+      <status code="D" time="2018-12-01T08:14:00Z"/>
+    </flight>
+    <flight uniqueID="8083039">
+      <airline>NVR</airline>
+      <flight_id>NVR179</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T08:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LPA</airport>
+      <check_in>10</check_in>
+      <gate>D9</gate>
+      <status code="D" time="2018-12-01T08:07:00Z"/>
+    </flight>
+    <flight uniqueID="8082884">
+      <airline>DY</airline>
+      <flight_id>DY526</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <check_in>3</check_in>
+      <gate>A14</gate>
+      <status code="D" time="2018-12-01T07:59:00Z"/>
+    </flight>
+    <flight uniqueID="8083228">
+      <airline>SK</airline>
+      <flight_id>SK4609</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T08:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>MAN</airport>
+      <check_in>5 6</check_in>
+      <gate>F15</gate>
+      <status code="D" time="2018-12-01T08:10:00Z"/>
+    </flight>
+    <flight uniqueID="8082782">
+      <airline>DY</airline>
+      <flight_id>DY1086</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T08:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>PLQ</airport>
+      <check_in>3</check_in>
+      <gate>D2</gate>
+      <status code="D" time="2018-12-01T08:13:00Z"/>
+    </flight>
+    <flight uniqueID="8083052">
+      <airline>SK</airline>
+      <flight_id>SK1314</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AES</airport>
+      <check_in>5 6</check_in>
+      <gate>A6</gate>
+      <status code="D" time="2018-12-01T08:16:00Z"/>
+    </flight>
+    <flight uniqueID="8083127">
+      <airline>SK</airline>
+      <flight_id>SK308</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>HAU</airport>
+      <check_in>5 6</check_in>
+      <gate>B4</gate>
+      <status code="D" time="2018-12-01T08:14:00Z"/>
+    </flight>
+    <flight uniqueID="8082727">
+      <airline>D8</airline>
+      <flight_id>D8246</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T08:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BUD</airport>
+      <check_in>3</check_in>
+      <gate>D3</gate>
+      <status code="D" time="2018-12-01T08:24:00Z"/>
+    </flight>
+    <flight uniqueID="8082982">
+      <airline>KL</airline>
+      <flight_id>KL1142</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T08:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AMS</airport>
+      <check_in>8 9</check_in>
+      <gate>D1</gate>
+      <status code="D" time="2018-12-01T08:43:00Z"/>
+      <delayed>Y</delayed>
+    </flight>
+    <flight uniqueID="8111236">
+      <airline>CZ</airline>
+      <flight_id>CZ7606</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T08:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AMS</airport>
+      <check_in>8 9</check_in>
+      <gate>D1</gate>
+      <status code="D" time="2018-12-01T08:43:00Z"/>
+      <delayed>Y</delayed>
+    </flight>
+    <flight uniqueID="8083209">
+      <airline>SK</airline>
+      <flight_id>SK4406</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+      <check_in>5 6</check_in>
+      <gate>A10</gate>
+      <status code="D" time="2018-12-01T08:23:00Z"/>
+    </flight>
+    <flight uniqueID="8083263">
+      <airline>SK</airline>
+      <flight_id>SK864</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T08:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ARN</airport>
+      <check_in>5 6</check_in>
+      <gate>E11</gate>
+      <status code="D" time="2018-12-01T08:42:00Z"/>
+    </flight>
+    <flight uniqueID="8083096">
+      <airline>SK</airline>
+      <flight_id>SK255</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>5 6</check_in>
+      <gate>A12</gate>
+      <status code="D" time="2018-12-01T08:28:00Z"/>
+    </flight>
+    <flight uniqueID="8111263">
+      <airline>SK</airline>
+      <flight_id>SK3623</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T08:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FRA</airport>
+      <check_in>5</check_in>
+      <gate>D4</gate>
+      <status code="D" time="2018-12-01T08:34:00Z"/>
+    </flight>
+    <flight uniqueID="8083020">
+      <airline>LH</airline>
+      <flight_id>LH859</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T08:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FRA</airport>
+      <check_in>5</check_in>
+      <gate>D4</gate>
+      <status code="D" time="2018-12-01T08:29:00Z"/>
+    </flight>
+    <flight uniqueID="8083231">
+      <airline>SK</airline>
+      <flight_id>SK4697</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T08:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LPA</airport>
+      <check_in>5 6</check_in>
+      <gate>D7</gate>
+      <status code="D" time="2018-12-01T08:37:00Z"/>
+    </flight>
+    <flight uniqueID="8083171">
+      <airline>SK</airline>
+      <flight_id>SK4017</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <check_in>5 6</check_in>
+      <gate>A23</gate>
+      <status code="D" time="2018-12-01T08:39:00Z"/>
+    </flight>
+    <flight uniqueID="8082968">
+      <airline>EZY</airline>
+      <flight_id>EZY5778</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T08:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TXL</airport>
+      <check_in>1</check_in>
+      <gate>D11</gate>
+      <status code="D" time="2018-12-01T08:49:00Z"/>
+    </flight>
+    <flight uniqueID="8083060">
+      <airline>SK</airline>
+      <flight_id>SK1455</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T09:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+      <check_in>5 6</check_in>
+      <gate>D5</gate>
+      <status code="D" time="2018-12-01T08:58:00Z"/>
+    </flight>
+    <flight uniqueID="8083239">
+      <airline>SK</airline>
+      <flight_id>SK7058</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T09:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TLL</airport>
+      <check_in>5 6</check_in>
+      <gate>E8</gate>
+      <status code="D" time="2018-12-01T08:56:00Z"/>
+    </flight>
+    <flight uniqueID="8083075">
+      <airline>SK</airline>
+      <flight_id>SK1901</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T09:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BLL</airport>
+      <check_in>5 6</check_in>
+      <gate>D6</gate>
+      <status code="D" time="2018-12-01T09:05:00Z"/>
+    </flight>
+    <flight uniqueID="8082972">
+      <airline>FR</airline>
+      <flight_id>FR1319</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T09:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>STN</airport>
+      <check_in>1</check_in>
+      <gate>F16</gate>
+      <status code="D" time="2018-12-01T08:51:00Z"/>
+    </flight>
+    <flight uniqueID="8083233">
+      <airline>SK</airline>
+      <flight_id>SK4773</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T09:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>GZP</airport>
+      <check_in>5 6</check_in>
+      <gate>F13</gate>
+      <status code="D" time="2018-12-01T08:57:00Z"/>
+    </flight>
+    <flight uniqueID="8083135">
+      <airline>SK</airline>
+      <flight_id>SK338</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>5 6</check_in>
+      <gate>A8</gate>
+      <status code="D" time="2018-12-01T09:11:00Z"/>
+    </flight>
+    <flight uniqueID="8082890">
+      <airline>DY</airline>
+      <flight_id>DY532</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <check_in>3</check_in>
+      <gate>A20</gate>
+    </flight>
+    <flight uniqueID="8082824">
+      <airline>DY</airline>
+      <flight_id>DY1822</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T09:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TFS</airport>
+      <check_in>3</check_in>
+      <gate>D9</gate>
+    </flight>
+    <flight uniqueID="8083175">
+      <airline>SK</airline>
+      <flight_id>SK4023</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <check_in>5 6</check_in>
+      <gate>A24</gate>
+    </flight>
+    <flight uniqueID="8083032">
+      <airline>LO</airline>
+      <flight_id>LO482</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T09:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>WAW</airport>
+      <check_in>5</check_in>
+      <gate>D3</gate>
+    </flight>
+    <flight uniqueID="8083191">
+      <airline>SK</airline>
+      <flight_id>SK4106</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+      <check_in>5 6</check_in>
+      <gate>A2</gate>
+    </flight>
+    <flight uniqueID="8083229">
+      <airline>SK</airline>
+      <flight_id>SK4695</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T09:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LPA</airport>
+      <check_in>5 6</check_in>
+      <gate>D10</gate>
+    </flight>
+    <flight uniqueID="8082794">
+      <airline>DY</airline>
+      <flight_id>DY1690</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T10:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AGA</airport>
+      <check_in>3</check_in>
+      <gate>F14</gate>
+    </flight>
+    <flight uniqueID="8083266">
+      <airline>SK</airline>
+      <flight_id>SK907</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T10:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>EWR</airport>
+      <check_in>4</check_in>
+      <gate>F18</gate>
+    </flight>
+    <flight uniqueID="8111483">
+      <airline>SK</airline>
+      <flight_id>SK3687</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T10:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>MUC</airport>
+      <check_in>5</check_in>
+      <gate>D7</gate>
+    </flight>
+    <flight uniqueID="8083012">
+      <airline>LH</airline>
+      <flight_id>LH2453</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T10:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>MUC</airport>
+      <check_in>5</check_in>
+      <gate>D7</gate>
+    </flight>
+    <flight uniqueID="8111484">
+      <airline>AY</airline>
+      <flight_id>AY5911</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T10:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LHR</airport>
+      <check_in>1</check_in>
+      <gate>F16</gate>
+    </flight>
+    <flight uniqueID="8082745">
+      <airline>D8</airline>
+      <flight_id>D85321</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T10:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ALC</airport>
+      <check_in>3</check_in>
+      <gate>E11</gate>
+    </flight>
+    <flight uniqueID="8082717">
+      <airline>BA</airline>
+      <flight_id>BA763</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T10:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LHR</airport>
+      <check_in>1</check_in>
+      <gate>F16</gate>
+    </flight>
+    <flight uniqueID="8111485">
+      <airline>SK</airline>
+      <flight_id>SK3411</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T10:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>IST</airport>
+      <check_in>8</check_in>
+      <gate>F19</gate>
+    </flight>
+    <flight uniqueID="8083278">
+      <airline>TK</airline>
+      <flight_id>TK1752</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T10:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>IST</airport>
+      <check_in>8</check_in>
+      <gate>F19</gate>
+    </flight>
+    <flight uniqueID="8082812">
+      <airline>DY</airline>
+      <flight_id>DY1788</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T10:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FUE</airport>
+      <check_in>3</check_in>
+      <gate>D5</gate>
+    </flight>
+    <flight uniqueID="8082921">
+      <airline>DY</airline>
+      <flight_id>DY750</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T10:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>3</check_in>
+      <gate>A20</gate>
+    </flight>
+    <flight uniqueID="8013466">
+      <airline>SK</airline>
+      <flight_id>SK1467</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T10:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+      <check_in>5 6</check_in>
+      <gate>D8</gate>
+    </flight>
+    <flight uniqueID="8082780">
+      <airline>DY</airline>
+      <flight_id>DY1072</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T10:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>RIX</airport>
+      <check_in>3</check_in>
+      <gate>D2</gate>
+    </flight>
+    <flight uniqueID="8083343">
+      <airline>WF</airline>
+      <flight_id>WF189</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T10:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FDE</airport>
+      <check_in>5 6</check_in>
+      <gate>A23</gate>
+    </flight>
+    <flight uniqueID="8082900">
+      <airline>DY</airline>
+      <flight_id>DY610</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T10:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>3</check_in>
+      <gate>A15</gate>
+    </flight>
+    <flight uniqueID="8082753">
+      <airline>D8</airline>
+      <flight_id>D86071</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T10:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>MAD</airport>
+      <check_in>3</check_in>
+      <gate>E8</gate>
+    </flight>
+    <flight uniqueID="8083179">
+      <airline>SK</airline>
+      <flight_id>SK4025</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T11:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <check_in>5 6</check_in>
+      <gate>B5</gate>
+    </flight>
+    <flight uniqueID="8082844">
+      <airline>DY</airline>
+      <flight_id>DY1996</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T11:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TLV</airport>
+      <check_in>3</check_in>
+      <gate>F13</gate>
+    </flight>
+    <flight uniqueID="8082796">
+      <airline>DY</airline>
+      <flight_id>DY1698</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T11:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>RAK</airport>
+      <check_in>3</check_in>
+      <gate>F17</gate>
+    </flight>
+    <flight uniqueID="8082755">
+      <airline>D8</airline>
+      <flight_id>D86623</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T11:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>PMI</airport>
+      <check_in>3</check_in>
+      <gate>D9</gate>
+    </flight>
+    <flight uniqueID="8083321">
+      <airline>WF</airline>
+      <flight_id>WF135</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T11:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FRO</airport>
+      <via_airport>SOG</via_airport>
+      <check_in>5 6</check_in>
+      <gate>A26</gate>
+    </flight>
+    <flight uniqueID="8082947">
+      <airline>DY</airline>
+      <flight_id>DY9036</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T11:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SSH</airport>
+      <check_in>3</check_in>
+      <gate>F15</gate>
+    </flight>
+    <flight uniqueID="8083078">
+      <airline>SK</airline>
+      <flight_id>SK213</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T11:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KRS</airport>
+      <check_in>5 6</check_in>
+    </flight>
+    <flight uniqueID="8114176">
+      <airline>SN</airline>
+      <flight_id>SN2282</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T11:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BRU</airport>
+    </flight>
+    <flight uniqueID="8082820">
+      <airline>DY</airline>
+      <flight_id>DY1818</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T11:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LPA</airport>
+      <check_in>3</check_in>
+    </flight>
+    <flight uniqueID="8082957">
+      <airline>DY</airline>
+      <flight_id>DY940</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T11:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+      <check_in>3</check_in>
+    </flight>
+    <flight uniqueID="8111498">
+      <airline>AZ</airline>
+      <flight_id>AZ2964</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T11:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CDG</airport>
+      <check_in>8 9</check_in>
+    </flight>
+    <flight uniqueID="8082706">
+      <airline>AF</airline>
+      <flight_id>AF1775</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T11:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CDG</airport>
+      <check_in>8 9</check_in>
+    </flight>
+    <flight uniqueID="8111496">
+      <airline>AF</airline>
+      <flight_id>AF4521</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T11:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>HOV</airport>
+      <check_in>5 6</check_in>
+    </flight>
+    <flight uniqueID="8083335">
+      <airline>WF</airline>
+      <flight_id>WF176</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T11:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <via_airport>HOV,SDN</via_airport>
+      <check_in>5 6</check_in>
+    </flight>
+    <flight uniqueID="8111499">
+      <airline>DL</airline>
+      <flight_id>DL9597</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T11:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AMS</airport>
+      <check_in>8 9</check_in>
+    </flight>
+    <flight uniqueID="8082984">
+      <airline>KL</airline>
+      <flight_id>KL1144</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T11:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AMS</airport>
+      <check_in>8 9</check_in>
+    </flight>
+    <flight uniqueID="8111500">
+      <airline>SK</airline>
+      <flight_id>SK3517</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T11:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ZRH</airport>
+      <check_in>5</check_in>
+    </flight>
+    <flight uniqueID="8083038">
+      <airline>LX</airline>
+      <flight_id>LX1211</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T11:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ZRH</airport>
+      <check_in>5</check_in>
+    </flight>
+    <flight uniqueID="8083102">
+      <airline>SK</airline>
+      <flight_id>SK263</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T11:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>5 6</check_in>
+    </flight>
+    <flight uniqueID="8082970">
+      <airline>FI</airline>
+      <flight_id>FI319</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T12:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KEF</airport>
+      <check_in>5</check_in>
+    </flight>
+    <flight uniqueID="8083272">
+      <airline>SU</airline>
+      <flight_id>SU2175</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T12:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVO</airport>
+      <check_in>7</check_in>
+      <status code="E" time="2018-12-01T14:10:00Z"/>
+      <delayed>Y</delayed>
+    </flight>
+    <flight uniqueID="8111502">
+      <airline>FI</airline>
+      <flight_id>FI7200</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T12:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVO</airport>
+      <check_in>7</check_in>
+      <status code="E" time="2018-12-01T14:10:00Z"/>
+      <delayed>Y</delayed>
+    </flight>
+    <flight uniqueID="8082816">
+      <airline>DY</airline>
+      <flight_id>DY1802</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T12:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AGP</airport>
+      <check_in>3</check_in>
+    </flight>
+    <flight uniqueID="8083256">
+      <airline>SK</airline>
+      <flight_id>SK805</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T12:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LHR</airport>
+      <check_in>5 6</check_in>
+    </flight>
+    <flight uniqueID="8082708">
+      <airline>AY</airline>
+      <flight_id>AY914</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T12:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>HEL</airport>
+      <check_in>1</check_in>
+    </flight>
+    <flight uniqueID="8111505">
+      <airline>FI</airline>
+      <flight_id>FI7324</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T12:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>HEL</airport>
+      <check_in>1</check_in>
+    </flight>
+    <flight uniqueID="8083042">
+      <airline>PC</airline>
+      <flight_id>PC1274</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T12:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SAW</airport>
+      <check_in>4</check_in>
+    </flight>
+    <flight uniqueID="8082902">
+      <airline>DY</airline>
+      <flight_id>DY612</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T12:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>3</check_in>
+    </flight>
+    <flight uniqueID="8082925">
+      <airline>DY</airline>
+      <flight_id>DY754</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T12:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>3</check_in>
+    </flight>
+    <flight uniqueID="8083022">
+      <airline>LH</airline>
+      <flight_id>LH861</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T12:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FRA</airport>
+      <check_in>5</check_in>
+    </flight>
+    <flight uniqueID="8082731">
+      <airline>D8</airline>
+      <flight_id>D82805</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T12:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LGW</airport>
+      <check_in>3</check_in>
+    </flight>
+    <flight uniqueID="8111508">
+      <airline>SK</airline>
+      <flight_id>SK3609</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T12:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FRA</airport>
+      <check_in>5</check_in>
+    </flight>
+    <flight uniqueID="8083235">
+      <airline>SK</airline>
+      <flight_id>SK486</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T12:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ARN</airport>
+      <check_in>5 6</check_in>
+    </flight>
+    <flight uniqueID="8111511">
+      <airline>SK</airline>
+      <flight_id>SK8635</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T12:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BKK</airport>
+      <check_in>7</check_in>
+    </flight>
+    <flight uniqueID="8083139">
+      <airline>SK</airline>
+      <flight_id>SK344</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T12:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>5 6</check_in>
+    </flight>
+    <flight uniqueID="8083276">
+      <airline>TG</airline>
+      <flight_id>TG955</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T12:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BKK</airport>
+      <check_in>7</check_in>
+    </flight>
+    <flight uniqueID="8083065">
+      <airline>SK</airline>
+      <flight_id>SK1469</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T12:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+      <check_in>5 6</check_in>
+    </flight>
+    <flight uniqueID="8082834">
+      <airline>DY</airline>
+      <flight_id>DY1890</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T12:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LCA</airport>
+      <check_in>3</check_in>
+    </flight>
+    <flight uniqueID="8082726">
+      <airline>D8</airline>
+      <flight_id>D81641</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T12:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>EDI</airport>
+      <check_in>3</check_in>
+    </flight>
+    <flight uniqueID="8082935">
+      <airline>DY</airline>
+      <flight_id>DY814</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T13:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ARN</airport>
+      <check_in>3</check_in>
+    </flight>
+    <flight uniqueID="8082836">
+      <airline>DY</airline>
+      <flight_id>DY1898</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T13:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CHQ</airport>
+      <check_in>3</check_in>
+    </flight>
+    <flight uniqueID="8082749">
+      <airline>D8</airline>
+      <flight_id>D85873</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T13:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LPA</airport>
+      <check_in>3</check_in>
+    </flight>
+    <flight uniqueID="8082964">
+      <airline>EK</airline>
+      <flight_id>EK160</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T13:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>DXB</airport>
+      <check_in>10</check_in>
+    </flight>
+    <flight uniqueID="8111519">
+      <airline>QF</airline>
+      <flight_id>QF8160</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T13:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>DXB</airport>
+      <check_in>10</check_in>
+    </flight>
+    <flight uniqueID="8082724">
+      <airline>BT</airline>
+      <flight_id>BT160</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T13:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>RIX</airport>
+      <check_in>2</check_in>
+    </flight>
+    <flight uniqueID="8083143">
+      <airline>SK</airline>
+      <flight_id>SK350</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T13:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>5 6</check_in>
+    </flight>
+    <flight uniqueID="8083215">
+      <airline>SK</airline>
+      <flight_id>SK4418</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T13:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+      <check_in>5 6</check_in>
+    </flight>
+    <flight uniqueID="8083195">
+      <airline>SK</airline>
+      <flight_id>SK4112</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T13:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+      <check_in>5 6</check_in>
+    </flight>
+    <flight uniqueID="8082786">
+      <airline>DY</airline>
+      <flight_id>DY1262</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T13:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AYT</airport>
+      <check_in>3</check_in>
+    </flight>
+    <flight uniqueID="8083106">
+      <airline>SK</airline>
+      <flight_id>SK269</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T13:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>5 6</check_in>
+    </flight>
+    <flight uniqueID="8083088">
+      <airline>SK</airline>
+      <flight_id>SK2305</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T13:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KSU</airport>
+      <check_in>5 6</check_in>
+    </flight>
+    <flight uniqueID="8082810">
+      <airline>DY</airline>
+      <flight_id>DY1782</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T14:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FAO</airport>
+      <check_in>3</check_in>
+    </flight>
+    <flight uniqueID="8082814">
+      <airline>DY</airline>
+      <flight_id>DY1790</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T14:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ALC</airport>
+      <check_in>3</check_in>
+    </flight>
+    <flight uniqueID="8083181">
+      <airline>SK</airline>
+      <flight_id>SK4031</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T14:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <check_in>5 6</check_in>
+    </flight>
+    <flight uniqueID="8083258">
+      <airline>SK</airline>
+      <flight_id>SK809</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T14:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LHR</airport>
+      <check_in>5 6</check_in>
+    </flight>
+    <flight uniqueID="8013468">
+      <airline>SK</airline>
+      <flight_id>SK1471</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T14:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+      <check_in>5 6</check_in>
+    </flight>
+    <flight uniqueID="8083223">
+      <airline>SK</airline>
+      <flight_id>SK4524</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T14:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>MOL</airport>
+      <check_in>5 6</check_in>
+    </flight>
+    <flight uniqueID="8082976">
+      <airline>FR</airline>
+      <flight_id>FR1397</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T14:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>STN</airport>
+      <check_in>1</check_in>
+    </flight>
+    <flight uniqueID="8082739">
+      <airline>D8</airline>
+      <flight_id>D8310</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T14:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>HEL</airport>
+      <check_in>3</check_in>
+    </flight>
+    <flight uniqueID="8083345">
+      <airline>WF</airline>
+      <flight_id>WF191</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T14:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FDE</airport>
+      <check_in>5 6</check_in>
+    </flight>
+    <flight uniqueID="8082914">
+      <airline>DY</airline>
+      <flight_id>DY7081</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T15:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LAX</airport>
+      <check_in>2</check_in>
+    </flight>
+    <flight uniqueID="8083024">
+      <airline>LH</airline>
+      <flight_id>LH863</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T15:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FRA</airport>
+      <check_in>5</check_in>
+    </flight>
+    <flight uniqueID="8111545">
+      <airline>SK</airline>
+      <flight_id>SK3621</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T15:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FRA</airport>
+      <check_in>5</check_in>
+    </flight>
+    <flight uniqueID="8082915">
+      <airline>DY</airline>
+      <flight_id>DY7201</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T15:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BKK</airport>
+      <check_in>2</check_in>
+    </flight>
+    <flight uniqueID="8082838">
+      <airline>DY</airline>
+      <flight_id>DY1908</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T15:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>PRN</airport>
+      <check_in>3</check_in>
+    </flight>
+    <flight uniqueID="8082892">
+      <airline>DY</airline>
+      <flight_id>DY538</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T15:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <check_in>3</check_in>
+    </flight>
+    <flight uniqueID="8083046">
+      <airline>QR</airline>
+      <flight_id>QR176</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T15:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>DOH</airport>
+      <check_in>7</check_in>
+    </flight>
+    <flight uniqueID="8082906">
+      <airline>DY</airline>
+      <flight_id>DY620</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T15:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>3</check_in>
+    </flight>
+    <flight uniqueID="8082927">
+      <airline>DY</airline>
+      <flight_id>DY760</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T15:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <check_in>3</check_in>
+    </flight>
+    <flight uniqueID="8083236">
+      <airline>SK</airline>
+      <flight_id>SK488</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T15:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ARN</airport>
+      <check_in>5 6</check_in>
+    </flight>
+    <flight uniqueID="8111547">
+      <airline>DX</airline>
+      <flight_id>DX015</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T15:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OLA</airport>
+      <check_in>5</check_in>
+    </flight>
+    <flight uniqueID="8082719">
+      <airline>BA</airline>
+      <flight_id>BA767</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T15:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LHR</airport>
+      <check_in>1</check_in>
+    </flight>
+    <flight uniqueID="8111553">
+      <airline>KL</airline>
+      <flight_id>KL2789</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T15:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FRO</airport>
+      <check_in>5 6</check_in>
+    </flight>
+    <flight uniqueID="8111552">
+      <airline>AY</airline>
+      <flight_id>AY5921</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T15:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LHR</airport>
+      <check_in>1</check_in>
+    </flight>
+    <flight uniqueID="8083110">
+      <airline>SK</airline>
+      <flight_id>SK277</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T15:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <check_in>5 6</check_in>
+    </flight>
+    <flight uniqueID="8083319">
+      <airline>WF</airline>
+      <flight_id>WF126</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T15:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FRO</airport>
+      <check_in>5 6</check_in>
+    </flight>
+    <flight uniqueID="8111555">
+      <airline>EY</airline>
+      <flight_id>EY7427</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T16:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AMS</airport>
+      <check_in>8 9</check_in>
+    </flight>
+    <flight uniqueID="8052012">
+      <airline>KL</airline>
+      <flight_id>KL1148</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T16:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AMS</airport>
+      <check_in>8 9</check_in>
+    </flight>
+  </flights>
+</airport><airport>BGO</airport><airport>TRD</airport><airport>TOS</airport><airport>TOS</airport><airport>TRD</airport><airport>FRA</airport><airport>HOV</airport><airport>TRD</airport><airport>EVE</airport><airport>BGO</airport><airport>BOO</airport><airport>KRK</airport><airport>TOS</airport><airport>BCN</airport><airport>LPA</airport><airport>SVG</airport><airport>MAN</airport><airport>PLQ</airport><airport>AES</airport><airport>HAU</airport><airport>BUD</airport><airport>AMS</airport><airport>AMS</airport><airport>TOS</airport><airport>ARN</airport><airport>BGO</airport><airport>FRA</airport><airport>FRA</airport><airport>LPA</airport><airport>SVG</airport><airport>TXL</airport><airport>CPH</airport><airport>TLL</airport><airport>BLL</airport><airport>STN</airport><airport>GZP</airport><airport>TRD</airport><airport>SVG</airport><airport>TFS</airport><airport>SVG</airport><airport>WAW</airport><airport>BOO</airport><airport>LPA</airport><airport>AGA</airport><airport>EWR</airport><airport>MUC</airport><airport>MUC</airport><airport>LHR</airport><airport>ALC</airport><airport>LHR</airport><airport>IST</airport><airport>IST</airport><airport>FUE</airport><airport>TRD</airport><airport>CPH</airport><airport>RIX</airport><airport>FDE</airport><airport>BGO</airport><airport>MAD</airport><airport>SVG</airport><airport>TLV</airport><airport>RAK</airport><airport>PMI</airport><airport>FRO</airport><airport>SSH</airport><airport>KRS</airport><airport>BRU</airport><airport>LPA</airport><airport>CPH</airport><airport>CDG</airport><airport>CDG</airport><airport>HOV</airport><airport>OSL</airport><airport>AMS</airport><airport>AMS</airport><airport>ZRH</airport><airport>ZRH</airport><airport>BGO</airport><airport>KEF</airport><airport>SVO</airport><airport>SVO</airport><airport>AGP</airport><airport>LHR</airport><airport>HEL</airport><airport>HEL</airport><airport>SAW</airport><airport>BGO</airport><airport>TRD</airport><airport>FRA</airport><airport>LGW</airport><airport>FRA</airport><airport>ARN</airport><airport>BKK</airport><airport>TRD</airport><airport>BKK</airport><airport>CPH</airport><airport>LCA</airport><airport>EDI</airport><airport>ARN</airport><airport>CHQ</airport><airport>LPA</airport><airport>DXB</airport><airport>DXB</airport><airport>RIX</airport><airport>TRD</airport><airport>TOS</airport><airport>BOO</airport><airport>AYT</airport><airport>BGO</airport><airport>KSU</airport><airport>FAO</airport><airport>ALC</airport><airport>SVG</airport><airport>LHR</airport><airport>CPH</airport><airport>MOL</airport><airport>STN</airport><airport>HEL</airport><airport>FDE</airport><airport>LAX</airport><airport>FRA</airport><airport>FRA</airport><airport>BKK</airport><airport>PRN</airport><airport>SVG</airport><airport>DOH</airport><airport>BGO</airport><airport>TRD</airport><airport>ARN</airport><airport>OLA</airport><airport>LHR</airport><airport>FRO</airport><airport>LHR</airport><airport>BGO</airport><airport>FRO</airport><airport>AMS</airport><airport>AMS</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="GLL">
+  <flights lastUpdate="2018-12-01T09:15:26Z">
+  </flights>
+</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="ALF">
+  <flights lastUpdate="2018-12-01T09:15:26Z">
+    <flight uniqueID="8083487">
+      <airline>WF</airline>
+      <flight_id>WF923</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T10:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+      <gate>21</gate>
+    </flight>
+    <flight uniqueID="8083491">
+      <airline>WF</airline>
+      <flight_id>WF925</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T13:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+      <gate>21</gate>
+    </flight>
+  </flights>
+</airport><airport>TOS</airport><airport>TOS</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="BVG">
+  <flights lastUpdate="2018-12-01T09:15:27Z">
+    <flight uniqueID="8108788">
+      <airline>WF</airline>
+      <flight_id>WF974</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-28T12:18:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KKN</airport>
+      <via_airport>VDS</via_airport>
+    </flight>
+  </flights>
+</airport><airport>KKN</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="BJF">
+  <flights lastUpdate="2018-12-01T09:15:27Z">
+  </flights>
+</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="HFT">
+  <flights lastUpdate="2018-12-01T09:15:27Z">
+    <flight uniqueID="8108786">
+      <airline>WF</airline>
+      <flight_id>WF974</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-28T10:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KKN</airport>
+      <via_airport>BVG,VDS</via_airport>
+    </flight>
+    <flight uniqueID="8083483">
+      <airline>WF</airline>
+      <flight_id>WF907</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T13:58:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+    </flight>
+  </flights>
+</airport><airport>KKN</airport><airport>TOS</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="HAA">
+  <flights lastUpdate="2018-12-01T09:15:27Z">
+  </flights>
+</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="HVG">
+  <flights lastUpdate="2018-12-01T09:15:27Z">
+  </flights>
+</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="KKN">
+  <flights lastUpdate="2018-12-01T09:15:27Z">
+    <flight uniqueID="8083497">
+      <airline>WF</airline>
+      <flight_id>WF973</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T10:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+      <via_airport>VDS</via_airport>
+      <gate>23</gate>
+    </flight>
+  </flights>
+</airport><airport>TOS</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="LKL">
+  <flights lastUpdate="2018-12-01T09:15:27Z">
+    <flight uniqueID="8083493">
+      <airline>WF</airline>
+      <flight_id>WF953</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+    </flight>
+  </flights>
+</airport><airport>TOS</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="MEH">
+  <flights lastUpdate="2018-12-01T09:15:27Z">
+  </flights>
+</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="VDS">
+  <flights lastUpdate="2018-12-01T09:15:27Z">
+    <flight uniqueID="8083499">
+      <airline>WF</airline>
+      <flight_id>WF973</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T11:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+    </flight>
+    <flight uniqueID="8083503">
+      <airline>WF</airline>
+      <flight_id>WF986</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T14:37:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KKN</airport>
+    </flight>
+  </flights>
+</airport><airport>TOS</airport><airport>KKN</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="VAW">
+  <flights lastUpdate="2018-12-01T09:15:28Z">
+  </flights>
+</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="HMR">
+  <flights lastUpdate="2018-12-01T09:15:28Z">
+  </flights>
+</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="BGO">
+  <flights lastUpdate="2018-12-01T09:15:28Z">
+    <flight uniqueID="8109177">
+      <airline>SK</airline>
+      <flight_id>SK4196</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-28T20:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>B15</gate>
+      <status code="D" time="2018-11-28T20:53:00Z"/>
+      <delayed>Y</delayed>
+    </flight>
+    <flight uniqueID="8114047">
+      <airline>WF</airline>
+      <flight_id>WF106</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-30T11:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FDE</airport>
+      <gate>B17</gate>
+      <status code="D" time="2018-11-30T12:17:00Z"/>
+      <delayed>Y</delayed>
+    </flight>
+    <flight uniqueID="8080390">
+      <airline>AF</airline>
+      <flight_id>AF1253</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-11-30T16:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CDG</airport>
+    </flight>
+    <flight uniqueID="8081945">
+      <airline>WF</airline>
+      <flight_id>WF576</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-30T16:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KSU</airport>
+      <gate>B15</gate>
+      <status code="D" time="2018-11-30T16:58:59Z"/>
+    </flight>
+    <flight uniqueID="8082770">
+      <airline>DY</airline>
+      <flight_id>DY1028</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T06:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KRK</airport>
+      <gate>E29</gate>
+      <status code="D" time="2018-12-01T08:25:00Z"/>
+      <delayed>Y</delayed>
+    </flight>
+    <flight uniqueID="8082758">
+      <airline>DK</airline>
+      <flight_id>DK1522</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T07:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LPA</airport>
+      <gate>E27</gate>
+      <status code="D" time="2018-12-01T08:08:00Z"/>
+      <delayed>Y</delayed>
+    </flight>
+    <flight uniqueID="8083094">
+      <airline>SK</airline>
+      <flight_id>SK252</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>B16</gate>
+      <status code="D" time="2018-12-01T08:19:00Z"/>
+    </flight>
+    <flight uniqueID="8082993">
+      <airline>KL</airline>
+      <flight_id>KL1188</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T09:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AMS</airport>
+      <gate>E28</gate>
+      <status code="D" time="2018-12-01T08:45:00Z"/>
+    </flight>
+    <flight uniqueID="8083361">
+      <airline>WF</airline>
+      <flight_id>WF456</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AES</airport>
+      <gate>B18</gate>
+      <status code="D" time="2018-12-01T09:14:08Z"/>
+    </flight>
+    <flight uniqueID="8083116">
+      <airline>SK</airline>
+      <flight_id>SK2865</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T09:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+      <gate>E26</gate>
+      <status code="E" time="2018-12-01T09:15:00Z"/>
+    </flight>
+    <flight uniqueID="8082904">
+      <airline>DY</airline>
+      <flight_id>DY613</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>B19</gate>
+      <status code="D" time="2018-12-01T09:13:58Z"/>
+    </flight>
+    <flight uniqueID="8083401">
+      <airline>WF</airline>
+      <flight_id>WF614</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+      <gate>B15</gate>
+    </flight>
+    <flight uniqueID="8083098">
+      <airline>SK</airline>
+      <flight_id>SK260</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>B20</gate>
+    </flight>
+    <flight uniqueID="8083405">
+      <airline>WF</airline>
+      <flight_id>WF624</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+      <gate>B17</gate>
+    </flight>
+    <flight uniqueID="8083385">
+      <airline>WF</airline>
+      <flight_id>WF568</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T10:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <via_airport>KSU</via_airport>
+      <gate>B16</gate>
+    </flight>
+    <flight uniqueID="8083100">
+      <airline>SK</airline>
+      <flight_id>SK262</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T10:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>B18</gate>
+    </flight>
+    <flight uniqueID="8082712">
+      <airline>AY</airline>
+      <flight_id>AY942</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T10:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>HEL</airport>
+      <gate>E32</gate>
+    </flight>
+    <flight uniqueID="8083290">
+      <airline>W6</airline>
+      <flight_id>W61746</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T11:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>GDN</airport>
+      <gate>E28</gate>
+    </flight>
+    <flight uniqueID="8082832">
+      <airline>DY</airline>
+      <flight_id>DY1838</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T11:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LPA</airport>
+      <gate>E25</gate>
+    </flight>
+    <flight uniqueID="8082951">
+      <airline>DY</airline>
+      <flight_id>DY9170</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T11:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LPA</airport>
+      <gate>E29</gate>
+      <status code="E" time="2018-12-01T12:15:00Z"/>
+      <delayed>Y</delayed>
+    </flight>
+    <flight uniqueID="8083381">
+      <airline>WF</airline>
+      <flight_id>WF545</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T11:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <gate>B19</gate>
+    </flight>
+    <flight uniqueID="8083205">
+      <airline>SK</airline>
+      <flight_id>SK4164</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T12:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <gate>B16</gate>
+    </flight>
+    <flight uniqueID="8082804">
+      <airline>DY</airline>
+      <flight_id>DY1752</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T12:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AGP</airport>
+      <gate>E27</gate>
+    </flight>
+    <flight uniqueID="8082788">
+      <airline>DY</airline>
+      <flight_id>DY1282</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T12:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AYT</airport>
+      <gate>F24</gate>
+      <status code="E" time="2018-12-01T14:00:00Z"/>
+      <delayed>Y</delayed>
+    </flight>
+    <flight uniqueID="8083104">
+      <airline>SK</airline>
+      <flight_id>SK268</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T13:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>B17</gate>
+    </flight>
+    <flight uniqueID="8082991">
+      <airline>KL</airline>
+      <flight_id>KL1186</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T13:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AMS</airport>
+      <gate>E28</gate>
+    </flight>
+    <flight uniqueID="8083308">
+      <airline>W6</airline>
+      <flight_id>W62582</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T14:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>RIX</airport>
+      <gate>E27</gate>
+    </flight>
+    <flight uniqueID="8082908">
+      <airline>DY</airline>
+      <flight_id>DY625</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T14:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>B19</gate>
+    </flight>
+    <flight uniqueID="8083315">
+      <airline>WF</airline>
+      <flight_id>WF108</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T14:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FRO</airport>
+      <gate>B16</gate>
+    </flight>
+    <flight uniqueID="8083201">
+      <airline>SK</airline>
+      <flight_id>SK4163</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T14:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <gate>B18</gate>
+    </flight>
+    <flight uniqueID="8083108">
+      <airline>SK</airline>
+      <flight_id>SK274</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T15:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>B17</gate>
+    </flight>
+    <flight uniqueID="8083121">
+      <airline>SK</airline>
+      <flight_id>SK2873</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T15:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+      <gate>E28</gate>
+    </flight>
+    <flight uniqueID="8083391">
+      <airline>WF</airline>
+      <flight_id>WF591</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T15:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KRS</airport>
+      <gate>B20</gate>
+    </flight>
+    <flight uniqueID="8083383">
+      <airline>WF</airline>
+      <flight_id>WF547</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T15:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <gate>B16</gate>
+    </flight>
+  </flights>
+</airport><airport>OSL</airport><airport>FDE</airport><airport>CDG</airport><airport>KSU</airport><airport>KRK</airport><airport>LPA</airport><airport>OSL</airport><airport>AMS</airport><airport>AES</airport><airport>CPH</airport><airport>OSL</airport><airport>BOO</airport><airport>OSL</airport><airport>TOS</airport><airport>TRD</airport><airport>OSL</airport><airport>HEL</airport><airport>GDN</airport><airport>LPA</airport><airport>LPA</airport><airport>SVG</airport><airport>TRD</airport><airport>AGP</airport><airport>AYT</airport><airport>OSL</airport><airport>AMS</airport><airport>RIX</airport><airport>OSL</airport><airport>FRO</airport><airport>SVG</airport><airport>OSL</airport><airport>CPH</airport><airport>KRS</airport><airport>SVG</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="SRP">
+  <flights lastUpdate="2018-12-01T09:15:28Z">
+  </flights>
+</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="KSU">
+  <flights lastUpdate="2018-12-01T09:15:28Z">
+    <flight uniqueID="8083387">
+      <airline>WF</airline>
+      <flight_id>WF568</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T11:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <gate>3</gate>
+    </flight>
+    <flight uniqueID="8083090">
+      <airline>SK</airline>
+      <flight_id>SK2308</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T15:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>2</gate>
+    </flight>
+  </flights>
+</airport><airport>TRD</airport><airport>OSL</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="MOL">
+  <flights lastUpdate="2018-12-01T09:15:28Z">
+    <flight uniqueID="8083225">
+      <airline>SK</airline>
+      <flight_id>SK4525</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T15:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>3</gate>
+    </flight>
+  </flights>
+</airport><airport>OSL</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="HOV">
+  <flights lastUpdate="2018-12-01T09:15:28Z">
+    <flight uniqueID="8097183">
+      <airline>AF</airline>
+      <flight_id>AF4529</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-25T09:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8097502">
+      <airline>AY</airline>
+      <flight_id>AY2678</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-25T15:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8099697">
+      <airline>AY</airline>
+      <flight_id>AY2674</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-26T05:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8099754">
+      <airline>KL</airline>
+      <flight_id>KL2800</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-26T08:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8099771">
+      <airline>AF</airline>
+      <flight_id>AF4529</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-26T09:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8099831">
+      <airline>AY</airline>
+      <flight_id>AY2678</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-26T15:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8100714">
+      <airline>KL</airline>
+      <flight_id>KL2799</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-27T05:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8100761">
+      <airline>KL</airline>
+      <flight_id>KL2800</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-27T08:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8100915">
+      <airline>AY</airline>
+      <flight_id>AY2672</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-27T09:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8101094">
+      <airline>AY</airline>
+      <flight_id>AY2678</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-27T15:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8102859">
+      <airline>AY</airline>
+      <flight_id>AY2674</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-28T05:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8102938">
+      <airline>KL</airline>
+      <flight_id>KL2800</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-28T08:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8103170">
+      <airline>AY</airline>
+      <flight_id>AY2672</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-28T09:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8103626">
+      <airline>AY</airline>
+      <flight_id>AY2678</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-28T15:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8105956">
+      <airline>KL</airline>
+      <flight_id>KL2800</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-29T08:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8105967">
+      <airline>AY</airline>
+      <flight_id>AY2672</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-29T09:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8106246">
+      <airline>AY</airline>
+      <flight_id>AY2678</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-29T15:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8108463">
+      <airline>AY</airline>
+      <flight_id>AY2674</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-30T05:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8108533">
+      <airline>AF</airline>
+      <flight_id>AF4529</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-30T09:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8083331">
+      <airline>WF</airline>
+      <flight_id>WF148</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8111302">
+      <airline>KL</airline>
+      <flight_id>KL2801</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8083337">
+      <airline>WF</airline>
+      <flight_id>WF176</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T13:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <via_airport>SDN</via_airport>
+    </flight>
+  </flights>
+</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="AES">
+  <flights lastUpdate="2018-12-01T09:15:28Z">
+    <flight uniqueID="8111861">
+      <airline>AY</airline>
+      <flight_id>AY2674</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-30T05:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8111859">
+      <airline>WF</airline>
+      <flight_id>WF172</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-30T05:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>1</gate>
+      <status code="E" time="2018-11-30T07:15:00Z"/>
+      <delayed>Y</delayed>
+    </flight>
+    <flight uniqueID="8082945">
+      <airline>DY</airline>
+      <flight_id>DY9030</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T09:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LPA</airport>
+      <gate>22</gate>
+    </flight>
+    <flight uniqueID="8083054">
+      <airline>SK</airline>
+      <flight_id>SK1317</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>1</gate>
+    </flight>
+    <flight uniqueID="8083363">
+      <airline>WF</airline>
+      <flight_id>WF457</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T10:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <gate>1</gate>
+    </flight>
+    <flight uniqueID="8027304">
+      <airline>KL</airline>
+      <flight_id>KL1326</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T15:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AMS</airport>
+      <gate>22</gate>
+    </flight>
+  </flights>
+</airport><airport>OSL</airport><airport>OSL</airport><airport>LPA</airport><airport>OSL</airport><airport>BGO</airport><airport>AMS</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="ANX">
+  <flights lastUpdate="2018-12-01T09:15:28Z">
+    <flight uniqueID="8083465">
+      <airline>WF</airline>
+      <flight_id>WF863</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T10:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+    </flight>
+    <flight uniqueID="8083469">
+      <airline>WF</airline>
+      <flight_id>WF866</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T15:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+    </flight>
+  </flights>
+</airport><airport>BOO</airport><airport>TOS</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="BOO">
+  <flights lastUpdate="2018-12-01T09:15:29Z">
+    <flight uniqueID="8079727">
+      <airline>WF</airline>
+      <flight_id>WF856</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-29T18:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SKN</airport>
+      <gate>16</gate>
+      <status code="E" time="2018-11-29T18:10:00Z"/>
+    </flight>
+    <flight uniqueID="8083033">
+      <airline>LTR</airline>
+      <flight_id>LTR001</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>VRY</airport>
+      <gate>21</gate>
+      <status code="D" time="2018-12-01T07:59:00Z"/>
+    </flight>
+    <flight uniqueID="8083413">
+      <airline>WF</airline>
+      <flight_id>WF708</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <via_airport>BNN</via_airport>
+      <gate>11</gate>
+    </flight>
+    <flight uniqueID="8083431">
+      <airline>WF</airline>
+      <flight_id>WF748</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <via_airport>MJF</via_airport>
+      <gate>15</gate>
+    </flight>
+    <flight uniqueID="8083449">
+      <airline>WF</airline>
+      <flight_id>WF808</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T10:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LKN</airport>
+      <gate>20</gate>
+    </flight>
+    <flight uniqueID="8082854">
+      <airline>DY</airline>
+      <flight_id>DY345</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T10:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>14</gate>
+      <status code="E" time="2018-12-01T10:10:00Z"/>
+    </flight>
+    <flight uniqueID="8083461">
+      <airline>WF</airline>
+      <flight_id>WF852</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T11:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+      <via_airport>SKN</via_airport>
+      <gate>19</gate>
+    </flight>
+    <flight uniqueID="8083425">
+      <airline>WF</airline>
+      <flight_id>WF730</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T11:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <via_airport>SSJ</via_airport>
+      <gate>16</gate>
+    </flight>
+    <flight uniqueID="8083193">
+      <airline>SK</airline>
+      <flight_id>SK4111</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T11:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>18</gate>
+    </flight>
+    <flight uniqueID="8083409">
+      <airline>WF</airline>
+      <flight_id>WF692</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T11:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+      <gate>20</gate>
+    </flight>
+    <flight uniqueID="8083403">
+      <airline>WF</airline>
+      <flight_id>WF615</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T12:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <gate>15</gate>
+    </flight>
+    <flight uniqueID="8083453">
+      <airline>WF</airline>
+      <flight_id>WF810</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T12:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LKN</airport>
+      <gate>11</gate>
+    </flight>
+    <flight uniqueID="8083457">
+      <airline>WF</airline>
+      <flight_id>WF832</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T13:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVJ</airport>
+      <gate>16</gate>
+    </flight>
+    <flight uniqueID="8083467">
+      <airline>WF</airline>
+      <flight_id>WF866</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T13:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+      <via_airport>ANX</via_airport>
+      <gate>15</gate>
+    </flight>
+    <flight uniqueID="8114274">
+      <airline>SK</airline>
+      <flight_id>SK4113</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T15:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>18</gate>
+    </flight>
+  </flights>
+</airport><airport>SKN</airport><airport>VRY</airport><airport>TRD</airport><airport>TRD</airport><airport>LKN</airport><airport>OSL</airport><airport>TOS</airport><airport>TRD</airport><airport>OSL</airport><airport>TOS</airport><airport>BGO</airport><airport>LKN</airport><airport>SVJ</airport><airport>TOS</airport><airport>OSL</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="BNN">
+  <flights lastUpdate="2018-12-01T09:15:29Z">
+    <flight uniqueID="8097507">
+      <airline>AF</airline>
+      <flight_id>AF4525</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-25T15:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8101097">
+      <airline>KL</airline>
+      <flight_id>KL9182</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-27T15:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8106248">
+      <airline>AF</airline>
+      <flight_id>AF4525</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-29T15:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8083415">
+      <airline>WF</airline>
+      <flight_id>WF708</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T10:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+    </flight>
+    <flight uniqueID="8083419">
+      <airline>WF</airline>
+      <flight_id>WF713</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T15:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+    </flight>
+  </flights>
+</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>TRD</airport><airport>BOO</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="EVE">
+  <flights lastUpdate="2018-12-01T09:15:29Z">
+    <flight uniqueID="8082860">
+      <airline>DY</airline>
+      <flight_id>DY365</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T10:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>30</gate>
+    </flight>
+    <flight uniqueID="8083471">
+      <airline>WF</airline>
+      <flight_id>WF872</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T11:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+      <gate>28</gate>
+    </flight>
+    <flight uniqueID="8083369">
+      <airline>WF</airline>
+      <flight_id>WF483</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T12:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRF</airport>
+      <via_airport>TRD</via_airport>
+      <gate>30</gate>
+    </flight>
+  </flights>
+</airport><airport>OSL</airport><airport>TOS</airport><airport>TRF</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="LKN">
+  <flights lastUpdate="2018-12-01T09:15:29Z">
+    <flight uniqueID="8099809">
+      <airline>AY</airline>
+      <flight_id>AY2666</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-26T12:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8108797">
+      <airline>AY</airline>
+      <flight_id>AY2666</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-30T12:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8083451">
+      <airline>WF</airline>
+      <flight_id>WF809</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T10:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+    </flight>
+    <flight uniqueID="8083455">
+      <airline>WF</airline>
+      <flight_id>WF811</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T13:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+    </flight>
+  </flights>
+</airport><airport>OSL</airport><airport>OSL</airport><airport>BOO</airport><airport>BOO</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="MQN">
+  <flights lastUpdate="2018-12-01T09:15:29Z">
+    <flight uniqueID="8097267">
+      <airline>AF</airline>
+      <flight_id>AF4532</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-25T10:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8099778">
+      <airline>AF</airline>
+      <flight_id>AF4532</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-26T10:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8103380">
+      <airline>KL</airline>
+      <flight_id>KL2796</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-28T10:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8108706">
+      <airline>AF</airline>
+      <flight_id>AF4532</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-30T10:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8083437">
+      <airline>WF</airline>
+      <flight_id>WF772</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T10:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+    </flight>
+  </flights>
+</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>TRD</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="MJF">
+  <flights lastUpdate="2018-12-01T09:15:29Z">
+    <flight uniqueID="8082051">
+      <airline>WF</airline>
+      <flight_id>WF753</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-30T18:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+    </flight>
+    <flight uniqueID="8083429">
+      <airline>WF</airline>
+      <flight_id>WF747</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+      <status code="D" time="2018-12-01T08:15:00Z"/>
+    </flight>
+    <flight uniqueID="8083433">
+      <airline>WF</airline>
+      <flight_id>WF748</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T10:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+    </flight>
+  </flights>
+</airport><airport>BOO</airport><airport>BOO</airport><airport>TRD</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="NVK">
+  <flights lastUpdate="2018-12-01T09:15:29Z">
+  </flights>
+</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="RET">
+  <flights lastUpdate="2018-12-01T09:15:29Z">
+  </flights>
+</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="SSJ">
+  <flights lastUpdate="2018-12-01T09:15:29Z">
+    <flight uniqueID="8106156">
+      <airline>KL</airline>
+      <flight_id>KL9171</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-29T10:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8083423">
+      <airline>WF</airline>
+      <flight_id>WF729</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T12:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+    </flight>
+    <flight uniqueID="8083427">
+      <airline>WF</airline>
+      <flight_id>WF730</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T12:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+    </flight>
+  </flights>
+</airport><airport>OSL</airport><airport>BOO</airport><airport>TRD</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="SKN">
+  <flights lastUpdate="2018-12-01T09:15:30Z">
+    <flight uniqueID="8083463">
+      <airline>WF</airline>
+      <flight_id>WF852</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T12:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+    </flight>
+  </flights>
+</airport><airport>TOS</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="SVJ">
+  <flights lastUpdate="2018-12-01T09:15:30Z">
+    <flight uniqueID="8097271">
+      <airline>AY</airline>
+      <flight_id>AY2668</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-25T10:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8106164">
+      <airline>AF</airline>
+      <flight_id>AF4536</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-29T10:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8083479">
+      <airline>WF</airline>
+      <flight_id>WF892</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+      <status code="D" time="2018-12-01T08:24:00Z"/>
+    </flight>
+    <flight uniqueID="8083459">
+      <airline>WF</airline>
+      <flight_id>WF833</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T14:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+    </flight>
+  </flights>
+</airport><airport>OSL</airport><airport>OSL</airport><airport>BOO</airport><airport>BOO</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="VRY">
+  <flights lastUpdate="2018-12-01T09:15:30Z">
+    <flight uniqueID="8081006">
+      <airline>LTR</airline>
+      <flight_id>LTR002</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-30T08:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+    </flight>
+    <flight uniqueID="8081010">
+      <airline>LTR</airline>
+      <flight_id>LTR004</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-30T16:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+    </flight>
+    <flight uniqueID="8083035">
+      <airline>LTR</airline>
+      <flight_id>LTR002</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+    </flight>
+  </flights>
+</airport><airport>BOO</airport><airport>BOO</airport><airport>BOO</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="VDB">
+  <flights lastUpdate="2018-12-01T09:15:30Z">
+  </flights>
+</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="HAU">
+  <flights lastUpdate="2018-12-01T09:15:30Z">
+    <flight uniqueID="8082826">
+      <airline>DY</airline>
+      <flight_id>DY183</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>4</gate>
+      <status code="D" time="2018-12-01T08:31:00Z"/>
+    </flight>
+    <flight uniqueID="8082943">
+      <airline>DY</airline>
+      <flight_id>DY9028</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T09:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LPA</airport>
+      <gate>2</gate>
+      <status code="E" time="2018-12-01T09:20:00Z"/>
+    </flight>
+    <flight uniqueID="8083131">
+      <airline>SK</airline>
+      <flight_id>SK311</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>3</gate>
+    </flight>
+    <flight uniqueID="8083294">
+      <airline>W6</airline>
+      <flight_id>W61750</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T11:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>GDN</airport>
+      <gate>3</gate>
+    </flight>
+  </flights>
+</airport><airport>OSL</airport><airport>LPA</airport><airport>OSL</airport><airport>GDN</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="SVG">
+  <flights lastUpdate="2018-12-01T09:15:30Z">
+    <flight uniqueID="8109175">
+      <airline>SK</airline>
+      <flight_id>SK4196</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-28T19:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <via_airport>BGO</via_airport>
+      <gate>20</gate>
+      <status code="D" time="2018-11-28T19:43:00Z"/>
+    </flight>
+    <flight uniqueID="8083375">
+      <airline>WF</airline>
+      <flight_id>WF540</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T07:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <gate>20</gate>
+      <status code="D" time="2018-12-01T07:51:00Z"/>
+    </flight>
+    <flight uniqueID="8083167">
+      <airline>SK</airline>
+      <flight_id>SK4010</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>18</gate>
+      <status code="D" time="2018-12-01T07:50:00Z"/>
+    </flight>
+    <flight uniqueID="8083312">
+      <airline>W6</airline>
+      <flight_id>W68146</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T08:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KUN</airport>
+      <gate>13</gate>
+      <status code="D" time="2018-12-01T08:09:00Z"/>
+    </flight>
+    <flight uniqueID="8083286">
+      <airline>W6</airline>
+      <flight_id>W61222</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T08:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KTW</airport>
+      <gate>14B</gate>
+      <status code="D" time="2018-12-01T08:34:00Z"/>
+    </flight>
+    <flight uniqueID="8083071">
+      <airline>SK</airline>
+      <flight_id>SK1875</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T08:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+      <gate>4</gate>
+      <status code="D" time="2018-12-01T08:56:00Z"/>
+    </flight>
+    <flight uniqueID="8083244">
+      <airline>SK</airline>
+      <flight_id>SK7409</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T08:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LPA</airport>
+      <gate>9</gate>
+      <status code="D" time="2018-12-01T08:53:00Z"/>
+    </flight>
+    <flight uniqueID="8082999">
+      <airline>KL</airline>
+      <flight_id>KL1198</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T08:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AMS</airport>
+      <gate>12</gate>
+      <status code="D" time="2018-12-01T08:50:00Z"/>
+    </flight>
+    <flight uniqueID="8083173">
+      <airline>SK</airline>
+      <flight_id>SK4022</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>16A</gate>
+      <status code="D" time="2018-12-01T08:54:00Z"/>
+    </flight>
+    <flight uniqueID="8082886">
+      <airline>DY</airline>
+      <flight_id>DY529</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>19</gate>
+    </flight>
+    <flight uniqueID="8083169">
+      <airline>SK</airline>
+      <flight_id>SK4016</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T10:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>20</gate>
+    </flight>
+    <flight uniqueID="8082888">
+      <airline>DY</airline>
+      <flight_id>DY531</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T10:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>19</gate>
+    </flight>
+    <flight uniqueID="8083001">
+      <airline>KL</airline>
+      <flight_id>KL1200</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T10:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AMS</airport>
+      <gate>12</gate>
+    </flight>
+    <flight uniqueID="8083203">
+      <airline>SK</airline>
+      <flight_id>SK4164</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T11:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+      <via_airport>BGO</via_airport>
+      <gate>22</gate>
+    </flight>
+    <flight uniqueID="8082737">
+      <airline>D8</airline>
+      <flight_id>D82829</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T11:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LGW</airport>
+      <gate>9</gate>
+    </flight>
+    <flight uniqueID="8082954">
+      <airline>DY</airline>
+      <flight_id>DY9322</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T11:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LPA</airport>
+      <gate>15B</gate>
+    </flight>
+    <flight uniqueID="8082830">
+      <airline>DY</airline>
+      <flight_id>DY1836</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T11:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LPA</airport>
+      <gate>13</gate>
+    </flight>
+    <flight uniqueID="8083177">
+      <airline>SK</airline>
+      <flight_id>SK4024</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T12:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>20</gate>
+    </flight>
+    <flight uniqueID="8083353">
+      <airline>WF</airline>
+      <flight_id>WF368</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T13:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ABZ</airport>
+    </flight>
+    <flight uniqueID="8083292">
+      <airline>W6</airline>
+      <flight_id>W61748</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T13:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>GDN</airport>
+    </flight>
+    <flight uniqueID="8082756">
+      <airline>DK</airline>
+      <flight_id>DK1506</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T14:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LPA</airport>
+      <gate>15B</gate>
+    </flight>
+    <flight uniqueID="8082828">
+      <airline>DY</airline>
+      <flight_id>DY1834</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T14:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ALC</airport>
+    </flight>
+    <flight uniqueID="8083073">
+      <airline>SK</airline>
+      <flight_id>SK1877</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T15:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+    </flight>
+    <flight uniqueID="8083183">
+      <airline>SK</airline>
+      <flight_id>SK4032</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T15:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+  </flights>
+</airport><airport>OSL</airport><airport>BGO</airport><airport>OSL</airport><airport>KUN</airport><airport>KTW</airport><airport>CPH</airport><airport>LPA</airport><airport>AMS</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>AMS</airport><airport>TRD</airport><airport>LGW</airport><airport>LPA</airport><airport>LPA</airport><airport>OSL</airport><airport>ABZ</airport><airport>GDN</airport><airport>LPA</airport><airport>ALC</airport><airport>CPH</airport><airport>OSL</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="FRO">
+  <flights lastUpdate="2018-12-01T09:15:30Z">
+    <flight uniqueID="8094517">
+      <airline>KL</airline>
+      <flight_id>KL2792</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-24T08:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8097102">
+      <airline>AY</airline>
+      <flight_id>AY2682</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-25T08:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8097450">
+      <airline>AF</airline>
+      <flight_id>AF4527</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-25T13:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8097537">
+      <airline>AY</airline>
+      <flight_id>AY2684</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-25T17:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8099695">
+      <airline>KL</airline>
+      <flight_id>KL2791</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-26T05:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8099752">
+      <airline>KL</airline>
+      <flight_id>KL2792</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-26T08:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8099814">
+      <airline>AF</airline>
+      <flight_id>AF4527</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-26T13:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8099866">
+      <airline>AY</airline>
+      <flight_id>AY2684</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-26T17:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8100712">
+      <airline>AY</airline>
+      <flight_id>AY2680</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-27T05:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8100759">
+      <airline>KL</airline>
+      <flight_id>KL2792</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-27T08:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8101070">
+      <airline>AF</airline>
+      <flight_id>AF4527</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-27T13:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8101116">
+      <airline>AY</airline>
+      <flight_id>AY2684</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-27T17:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8102857">
+      <airline>AY</airline>
+      <flight_id>AY2680</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-28T05:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8103568">
+      <airline>AF</airline>
+      <flight_id>AF4527</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-28T13:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8103692">
+      <airline>AY</airline>
+      <flight_id>AY2684</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-28T17:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8105901">
+      <airline>AY</airline>
+      <flight_id>AY2680</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-29T05:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8105954">
+      <airline>KL</airline>
+      <flight_id>KL2792</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-29T08:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8106203">
+      <airline>AF</airline>
+      <flight_id>AF4527</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-29T13:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8106308">
+      <airline>AY</airline>
+      <flight_id>AY2684</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-29T17:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8108500">
+      <airline>KL</airline>
+      <flight_id>KL2792</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-30T08:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8108823">
+      <airline>AF</airline>
+      <flight_id>AF4527</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-30T13:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8109034">
+      <airline>AY</airline>
+      <flight_id>AY2684</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-30T17:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8083317">
+      <airline>WF</airline>
+      <flight_id>WF125</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <status code="D" time="2018-12-01T08:22:00Z"/>
+    </flight>
+    <flight uniqueID="8111239">
+      <airline>AY</airline>
+      <flight_id>AY2682</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8083313">
+      <airline>WF</airline>
+      <flight_id>WF107</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T13:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+    </flight>
+  </flights>
+</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport>BGO</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="FDE">
+  <flights lastUpdate="2018-12-01T09:15:30Z">
+    <flight uniqueID="8114056">
+      <airline>AF</airline>
+      <flight_id>AF4527</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-30T13:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+    <flight uniqueID="8083341">
+      <airline>WF</airline>
+      <flight_id>WF188</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <status code="D" time="2018-12-01T08:04:00Z"/>
+    </flight>
+    <flight uniqueID="8083347">
+      <airline>WF</airline>
+      <flight_id>WF192</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T12:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+  </flights>
+</airport><airport>OSL</airport><airport>OSL</airport><airport>OSL</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="SDN">
+  <flights lastUpdate="2018-12-01T09:15:30Z">
+    <flight uniqueID="8083325">
+      <airline>WF</airline>
+      <flight_id>WF145</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <status code="D" time="2018-12-01T09:05:00Z"/>
+    </flight>
+    <flight uniqueID="8083339">
+      <airline>WF</airline>
+      <flight_id>WF176</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T13:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+  </flights>
+</airport><airport>OSL</airport><airport>OSL</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="SOG">
+  <flights lastUpdate="2018-12-01T09:15:31Z">
+    <flight uniqueID="8083329">
+      <airline>WF</airline>
+      <flight_id>WF148</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <via_airport>HOV</via_airport>
+      <status code="D" time="2018-12-01T08:29:00Z"/>
+    </flight>
+    <flight uniqueID="8083323">
+      <airline>WF</airline>
+      <flight_id>WF135</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T12:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FRO</airport>
+    </flight>
+  </flights>
+</airport><airport>OSL</airport><airport>FRO</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="LYR">
+  <flights lastUpdate="2018-12-01T09:15:31Z">
+    <flight uniqueID="8114087">
+      <airline>DY</airline>
+      <flight_id>DY8427</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T10:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+  </flights>
+</airport><airport>OSL</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="OSY">
+  <flights lastUpdate="2018-12-01T09:15:31Z">
+    <flight uniqueID="8083443">
+      <airline>WF</airline>
+      <flight_id>WF781</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <status code="D" time="2018-12-01T08:41:00Z"/>
+    </flight>
+  </flights>
+</airport><airport>OSL</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="RVK">
+  <flights lastUpdate="2018-12-01T09:15:31Z">
+    <flight uniqueID="8083441">
+      <airline>WF</airline>
+      <flight_id>WF781</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <via_airport>OSY</via_airport>
+      <status code="D" time="2018-12-01T07:55:00Z"/>
+    </flight>
+    <flight uniqueID="8083445">
+      <airline>WF</airline>
+      <flight_id>WF782</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T12:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRD</airport>
+    </flight>
+  </flights>
+</airport><airport>OSL</airport><airport>TRD</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="TRD">
+  <flights lastUpdate="2018-12-01T09:15:31Z">
+    <flight uniqueID="8081215">
+      <airline>SK</airline>
+      <flight_id>SK347</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-30T08:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>32</gate>
+      <status code="D" time="2018-11-30T08:26:21Z"/>
+    </flight>
+    <flight uniqueID="8083141">
+      <airline>SK</airline>
+      <flight_id>SK347</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>30</gate>
+      <status code="D" time="2018-12-01T08:19:39Z"/>
+    </flight>
+    <flight uniqueID="8083250">
+      <airline>SK</airline>
+      <flight_id>SK7473</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T08:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LPA</airport>
+      <gate>42</gate>
+      <status code="D" time="2018-12-01T08:56:00Z"/>
+    </flight>
+    <flight uniqueID="8082941">
+      <airline>DY</airline>
+      <flight_id>DY9011</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>36</gate>
+      <status code="D" time="2018-12-01T08:23:00Z"/>
+    </flight>
+    <flight uniqueID="8082923">
+      <airline>DY</airline>
+      <flight_id>DY753</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>35</gate>
+    </flight>
+    <flight uniqueID="8083123">
+      <airline>SK</airline>
+      <flight_id>SK2881</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T09:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+      <gate>43</gate>
+    </flight>
+    <flight uniqueID="8083145">
+      <airline>SK</airline>
+      <flight_id>SK351</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>34</gate>
+    </flight>
+    <flight uniqueID="8082808">
+      <airline>DY</airline>
+      <flight_id>DY1770</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T09:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LPA</airport>
+      <gate>47</gate>
+    </flight>
+    <flight uniqueID="8083395">
+      <airline>WF</airline>
+      <flight_id>WF602</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+      <gate>30</gate>
+    </flight>
+    <flight uniqueID="8083367">
+      <airline>WF</airline>
+      <flight_id>WF482</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T10:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>EVE</airport>
+      <gate>29</gate>
+    </flight>
+    <flight uniqueID="8083147">
+      <airline>SK</airline>
+      <flight_id>SK355</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T10:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>32</gate>
+    </flight>
+    <flight uniqueID="8083421">
+      <airline>WF</airline>
+      <flight_id>WF729</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T11:20:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+      <via_airport>SSJ</via_airport>
+      <gate>28</gate>
+    </flight>
+    <flight uniqueID="8083447">
+      <airline>WF</airline>
+      <flight_id>WF794</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T12:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>RVK</airport>
+      <gate>27</gate>
+    </flight>
+    <flight uniqueID="8082800">
+      <airline>DY</airline>
+      <flight_id>DY1728</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T12:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ALC</airport>
+      <gate>46</gate>
+    </flight>
+    <flight uniqueID="8083199">
+      <airline>SK</airline>
+      <flight_id>SK4163</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T13:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>SVG</airport>
+      <via_airport>BGO</via_airport>
+      <gate>31</gate>
+    </flight>
+    <flight uniqueID="8083126">
+      <airline>SK</airline>
+      <flight_id>SK2889</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T13:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+      <gate>43</gate>
+    </flight>
+    <flight uniqueID="8083151">
+      <airline>SK</airline>
+      <flight_id>SK361</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T13:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>32</gate>
+    </flight>
+    <flight uniqueID="8082929">
+      <airline>DY</airline>
+      <flight_id>DY761</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T14:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>35</gate>
+    </flight>
+    <flight uniqueID="8083439">
+      <airline>WF</airline>
+      <flight_id>WF773</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T14:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>MQN</airport>
+      <gate>27</gate>
+    </flight>
+    <flight uniqueID="8083417">
+      <airline>WF</airline>
+      <flight_id>WF713</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T14:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+      <via_airport>BNN</via_airport>
+      <gate>28</gate>
+    </flight>
+    <flight uniqueID="8083371">
+      <airline>WF</airline>
+      <flight_id>WF483</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T14:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TRF</airport>
+      <gate>29</gate>
+    </flight>
+    <flight uniqueID="8083399">
+      <airline>WF</airline>
+      <flight_id>WF603</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T14:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KRS</airport>
+      <gate>30</gate>
+    </flight>
+    <flight uniqueID="8083435">
+      <airline>WF</airline>
+      <flight_id>WF751</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T14:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>MJF</airport>
+      <gate>26</gate>
+    </flight>
+    <flight uniqueID="8083153">
+      <airline>SK</airline>
+      <flight_id>SK365</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T14:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>32</gate>
+    </flight>
+  </flights>
+</airport><airport>OSL</airport><airport>OSL</airport><airport>LPA</airport><airport>OSL</airport><airport>OSL</airport><airport>CPH</airport><airport>OSL</airport><airport>LPA</airport><airport>TOS</airport><airport>EVE</airport><airport>OSL</airport><airport>BOO</airport><airport>RVK</airport><airport>ALC</airport><airport>SVG</airport><airport>CPH</airport><airport>OSL</airport><airport>OSL</airport><airport>MQN</airport><airport>BOO</airport><airport>TRF</airport><airport>KRS</airport><airport>MJF</airport><airport>OSL</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="RRS">
+  <flights lastUpdate="2018-12-01T09:15:31Z">
+  </flights>
+</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="OLA">
+  <flights lastUpdate="2018-12-01T09:15:31Z">
+    <flight uniqueID="8080491">
+      <airline>DX</airline>
+      <flight_id>DX012</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-30T06:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <status code="D" time="2018-11-30T06:27:00Z"/>
+    </flight>
+    <flight uniqueID="8111532">
+      <airline>DX</airline>
+      <flight_id>DX014</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T14:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+    </flight>
+  </flights>
+</airport><airport>OSL</airport><airport>OSL</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="NTB">
+  <flights lastUpdate="2018-12-01T09:15:31Z">
+    <flight uniqueID="8081016">
+      <airline>NWG</airline>
+      <flight_id>NWG211</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-30T05:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+    </flight>
+    <flight uniqueID="8081020">
+      <airline>NWG</airline>
+      <flight_id>NWG213</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-30T16:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+    </flight>
+  </flights>
+</airport><airport>BGO</airport><airport>BGO</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="SKE">
+  <flights lastUpdate="2018-12-01T09:15:32Z">
+  </flights>
+</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="BDU">
+  <flights lastUpdate="2018-12-01T09:15:32Z">
+  </flights>
+</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="SOJ">
+  <flights lastUpdate="2018-12-01T09:15:32Z">
+    <flight uniqueID="8108784">
+      <airline>WF</airline>
+      <flight_id>WF974</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-28T10:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KKN</airport>
+      <via_airport>HFT,BVG,VDS</via_airport>
+    </flight>
+  </flights>
+</airport><airport>KKN</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="TOS">
+  <flights lastUpdate="2018-12-01T09:15:32Z">
+    <flight uniqueID="8108782">
+      <airline>WF</airline>
+      <flight_id>WF974</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-11-28T09:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KKN</airport>
+      <via_airport>SOJ,HFT,BVG,VDS</via_airport>
+      <gate>24</gate>
+      <status code="D" time="2018-11-28T10:00:00Z"/>
+      <delayed>Y</delayed>
+    </flight>
+    <flight uniqueID="8082798">
+      <airline>DY</airline>
+      <flight_id>DY1714</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T07:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LPA</airport>
+      <gate>20</gate>
+      <status code="D" time="2018-12-01T07:52:00Z"/>
+    </flight>
+    <flight uniqueID="8083485">
+      <airline>WF</airline>
+      <flight_id>WF922</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T09:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ALF</airport>
+      <gate>25</gate>
+    </flight>
+    <flight uniqueID="8083221">
+      <airline>SK</airline>
+      <flight_id>SK4451</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T10:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+      <gate>20</gate>
+    </flight>
+    <flight uniqueID="8082868">
+      <airline>DY</airline>
+      <flight_id>DY375</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T10:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>23</gate>
+    </flight>
+    <flight uniqueID="8083213">
+      <airline>SK</airline>
+      <flight_id>SK4411</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T10:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>22</gate>
+    </flight>
+    <flight uniqueID="8083473">
+      <airline>WF</airline>
+      <flight_id>WF873</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T10:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>EVE</airport>
+      <gate>24</gate>
+    </flight>
+    <flight uniqueID="8082714">
+      <airline>AY</airline>
+      <flight_id>AY946</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T11:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>HEL</airport>
+      <gate>19</gate>
+    </flight>
+    <flight uniqueID="8083018">
+      <airline>LH</airline>
+      <flight_id>LH2459</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T11:25:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>MUC</airport>
+      <gate>20</gate>
+    </flight>
+    <flight uniqueID="8083397">
+      <airline>WF</airline>
+      <flight_id>WF603</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T12:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KRS</airport>
+      <via_airport>TRD</via_airport>
+      <gate>24</gate>
+    </flight>
+    <flight uniqueID="8083407">
+      <airline>WF</airline>
+      <flight_id>WF625</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T12:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <gate>21</gate>
+    </flight>
+    <flight uniqueID="8083481">
+      <airline>WF</airline>
+      <flight_id>WF906</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T13:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>HFT</airport>
+      <gate>18</gate>
+    </flight>
+    <flight uniqueID="8083489">
+      <airline>WF</airline>
+      <flight_id>WF924</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T13:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>ALF</airport>
+      <gate>22</gate>
+    </flight>
+    <flight uniqueID="8083411">
+      <airline>WF</airline>
+      <flight_id>WF693</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T13:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BOO</airport>
+      <gate>25</gate>
+    </flight>
+    <flight uniqueID="8083030">
+      <airline>LH</airline>
+      <flight_id>LH871</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T13:05:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>FRA</airport>
+      <gate>20</gate>
+    </flight>
+    <flight uniqueID="8083501">
+      <airline>WF</airline>
+      <flight_id>WF986</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T13:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>KKN</airport>
+      <via_airport>VDS</via_airport>
+      <gate>23</gate>
+    </flight>
+    <flight uniqueID="8083217">
+      <airline>SK</airline>
+      <flight_id>SK4423</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T15:50:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>22</gate>
+    </flight>
+    <flight uniqueID="8083495">
+      <airline>WF</airline>
+      <flight_id>WF956</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T16:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LKL</airport>
+      <gate>17</gate>
+    </flight>
+  </flights>
+</airport><airport>KKN</airport><airport>LPA</airport><airport>ALF</airport><airport>CPH</airport><airport>OSL</airport><airport>OSL</airport><airport>EVE</airport><airport>HEL</airport><airport>MUC</airport><airport>KRS</airport><airport>BGO</airport><airport>HFT</airport><airport>ALF</airport><airport>BOO</airport><airport>FRA</airport><airport>KKN</airport><airport>OSL</airport><airport>LKL</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="FAN">
+  <flights lastUpdate="2018-12-01T09:15:32Z">
+  </flights>
+</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="KRS">
+  <flights lastUpdate="2018-12-01T09:15:32Z">
+    <flight uniqueID="8083393">
+      <airline>WF</airline>
+      <flight_id>WF602</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>TOS</airport>
+      <via_airport>TRD</via_airport>
+      <gate>6</gate>
+      <status code="D" time="2018-12-01T08:10:00Z"/>
+    </flight>
+    <flight uniqueID="8083248">
+      <airline>SK</airline>
+      <flight_id>SK7417</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T09:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LPA</airport>
+      <gate>12</gate>
+    </flight>
+    <flight uniqueID="8083007">
+      <airline>KL</airline>
+      <flight_id>KL1210</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T11:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AMS</airport>
+      <gate>11</gate>
+    </flight>
+    <flight uniqueID="8083350">
+      <airline>WF</airline>
+      <flight_id>WF266</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T12:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+      <gate>12</gate>
+    </flight>
+    <flight uniqueID="8083080">
+      <airline>SK</airline>
+      <flight_id>SK214</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T12:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OSL</airport>
+      <gate>7</gate>
+    </flight>
+  </flights>
+</airport><airport>TOS</airport><airport>LPA</airport><airport>AMS</airport><airport>CPH</airport><airport>OSL</airport><airport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://flydata.avinor.no/XmlFeed.xsd" name="TRF">
+  <flights lastUpdate="2018-12-01T09:15:32Z">
+    <flight uniqueID="8083355">
+      <airline>WF</airline>
+      <flight_id>WF406</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T07:45:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+      <status code="D" time="2018-12-01T07:57:00Z"/>
+    </flight>
+    <flight uniqueID="8083302">
+      <airline>W6</airline>
+      <flight_id>W61880</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T07:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>WRO</airport>
+      <status code="D" time="2018-12-01T07:54:00Z"/>
+    </flight>
+    <flight uniqueID="8083310">
+      <airline>W6</airline>
+      <flight_id>W63216</flight_id>
+      <dom_int>I</dom_int>
+      <schedule_time>2018-12-01T08:35:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>OTP</airport>
+      <status code="D" time="2018-12-01T08:39:00Z"/>
+    </flight>
+    <flight uniqueID="8083365">
+      <airline>WF</airline>
+      <flight_id>WF482</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T08:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>EVE</airport>
+      <via_airport>TRD</via_airport>
+      <status code="D" time="2018-12-01T08:41:00Z"/>
+    </flight>
+    <flight uniqueID="8083351">
+      <airline>WF</airline>
+      <flight_id>WF305</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T08:55:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>CPH</airport>
+      <status code="D" time="2018-12-01T08:56:00Z"/>
+    </flight>
+    <flight uniqueID="8083288">
+      <airline>W6</airline>
+      <flight_id>W61744</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T10:30:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>GDN</airport>
+    </flight>
+    <flight uniqueID="8083304">
+      <airline>W6</airline>
+      <flight_id>W61980</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T11:10:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>POZ</airport>
+    </flight>
+    <flight uniqueID="8083357">
+      <airline>WF</airline>
+      <flight_id>WF414</flight_id>
+      <dom_int>D</dom_int>
+      <schedule_time>2018-12-01T11:40:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>BGO</airport>
+    </flight>
+    <flight uniqueID="8083010">
+      <airline>KL</airline>
+      <flight_id>KL1218</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T13:15:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>AMS</airport>
+    </flight>
+    <flight uniqueID="8082751">
+      <airline>D8</airline>
+      <flight_id>D85893</flight_id>
+      <dom_int>S</dom_int>
+      <schedule_time>2018-12-01T16:00:00Z</schedule_time>
+      <arr_dep>D</arr_dep>
+      <airport>LPA</airport>
+    </flight>
+  </flights>
+</airport><airport>BGO</airport><airport>WRO</airport><airport>OTP</airport><airport>EVE</airport><airport>CPH</airport><airport>GDN</airport><airport>POZ</airport><airport>BGO</airport><airport>AMS</airport><airport>LPA</airport></Data>

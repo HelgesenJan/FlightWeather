@@ -1,0 +1,216 @@
+/*
+Laget av Joakim Selvik
+Styling for opprettede elementer i JS er laget av Jan Helge
+Kontrollert av alle
+ */
+
+header{
+    height: 7%;
+    overflow: hidden;
+    padding: 2% 6%;
+    font-size: 50px;
+    background-image: url("./Bilde/departures.png");
+    font-family: "Times New Roman", Times, serif;
+    background-size: cover;
+}
+
+.divBox {
+    margin-top: 25px;
+    float: left;
+    width: 15%;
+    height: 622px;
+}
+
+
+.divBox2{
+    margin-top: 20px;
+    width: 85%;
+    position: relative;
+    overflow:hidden;
+}
+
+.border2:hover::-webkit-scrollbar, ul::-webkit-scrollbar  {
+    width: 10px;
+}
+
+.border2:hover::-webkit-scrollbar-track, ul::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.border2:hover::-webkit-scrollbar-thumb, ul::-webkit-scrollbar-thumb {
+    background: #888;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.border2:hover::-webkit-scrollbar-thumb:hover, ul::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #282828;
+    font-family: sans-serif;
+}
+
+#minInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 93.5%;
+    font-size: 22px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin: 0 0 28px 10px;
+    height: 55px;
+}
+
+ul{
+    outline: none;
+    overflow-y: auto;
+    height: 94%;
+    width: 95%;
+    margin: 0 0 0 5px;
+    padding: 0 10px 10px 10px;
+    box-sizing: border-box;
+}
+
+li:first-child{
+    margin-top: 0;
+}
+
+li:last-child{
+    margin-bottom: -9px;
+}
+ul li{
+    display: flex;
+    background: rgba(255, 255, 255, .1);
+    padding: 10px 20px;
+    color: aliceblue;
+    margin: 5px -5px;
+    transition: .5s;
+    border-radius: 2px;
+}
+li.active{
+    background-color: aliceblue;
+    color: black;
+    outline: none;
+}
+
+li:hover {
+    background:rgba(255, 255, 255, .4);
+    cursor: pointer;
+}
+
+form#table{
+    width: 100%;
+    height: 698px;
+}
+
+.planeTable{
+    height: 100%;
+    display: table;
+    width: 100%;
+    border-spacing: 80px 3px;
+    overflow: hidden;
+}
+
+.tc{
+    display: table-cell;
+}
+
+.tr1, .tr2{
+    display: table-row;
+    text-align: center;
+}
+
+.tr1{
+    height: 50px;
+    font-size: 30px;
+    line-height: 50px;
+    table-layout: fixed;
+}
+
+.tr2{
+    font-size: 18px;
+    line-height: 50px;
+    overflow: hidden;
+}
+
+.tcO{
+    color: orange;
+}
+
+.tcO, .tcF, .tcY{
+    width: 185px;
+}
+
+.tcF{
+    color:#ffffff;
+}
+
+.tcY{
+    color:#e6d728
+}
+
+.border1{
+    border: 2px solid orange;
+    border-radius: 10px;
+    width: 99.7%;
+}
+
+.border2:hover{
+    overflow-y: scroll;
+  }
+
+.border2{
+    border: 2px solid #666666; /*282828*/
+    border-radius: 10px;
+    margin-top: 25px;
+    overflow-y: hidden;
+    height: 585px;
+}
+
+footer{
+    background-color:#555555;
+    height:20%;
+    clear: both;
+    text-align: center;
+    color: aliceblue;
+    width: 100%;
+    position: fixed;
+    line-height: 65px;
+    font-size: 20px;
+}
+
+a#link{
+    color: lightblue;
+    text-decoration: none;
+}
+
+a#link:hover{
+    color: skyblue;
+}
+
+a#link:active{
+    color: lightblue;
+}
+
+a#link:visited{
+    color: #bf80ff;
+}
+
+.avinor{
+    height: 30px;
+    width: 90px;
+    vertical-align: sub;
+}
+
+.hide{
+    display: none;
+}
