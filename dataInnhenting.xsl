@@ -94,8 +94,8 @@ Kontrollert av Jan Helge Helgesen
                 
                 <footer>
 
-                    Flightdata gathered from <a id="link" target="_blank" href="https://avinor.no/">www.avinor.no</a> &#160;&#160;&#160;<img src="./Bilde/avinor.png" class="avinor" alt="avinor"/> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
-                    Weather forecast from <a id="link" target="_blank" href="https://yr.no/">www.yr.no</a>, delivered by the Norwegian Meteorological Institute and NRK &#160;&#160;&#160;<img src="./Bilde/yr.png" class="avinor" alt="avinor"/>
+                    Flightdata gathered from <a id="link" target="_blank" href="https://avinor.no/">www.avinor.no</a> &#160;&#160;&#160;<a id="link" target="_blank" href="https://avinor.no/"><img src="./Bilde/avinor.png" class="avinor" alt="avinor"/></a>  &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                    Weather forecast from <a id="link" target="_blank" href="https://yr.no/">www.yr.no</a>, delivered by the Norwegian Meteorological Institute and NRK &#160;&#160;&#160;<a id="link" target="_blank" href="https://yr.no/"><img src="./Bilde/yr.png" class="avinor" alt="avinor"/></a>
 
                 </footer>
             </body>
