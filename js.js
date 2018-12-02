@@ -1,7 +1,26 @@
 /*
-Laget av Jan Helge
+Laget av Jan Helge Helgesen
 Kontrollert av Joakim Selvik
  */
+
+
+function changeTable() {
+    var airportTable = document.querySelector(".divBox2");
+    var weatherTable = document.querySelector(".divBox3");
+    var changeTable = document.getElementById("changeTable");
+
+    if(airportTable.style.display == 'block'){
+        changeTable.value = 'Check airport data';
+        airportTable.style.display = 'none';
+        weatherTable.style.display = 'block';
+    }else{
+        changeTable.value = 'Check weather data';
+        airportTable.style.display = 'block';
+        weatherTable.style.display = 'none';
+    }
+
+
+}
 
 
 var flyhavner = [];
@@ -21,11 +40,14 @@ var getXML = function (dom, cb) {
 };
 
 function run(){
+    document.querySelector(".hide").style.display = "none";
     document.getElementById("minInput").value = "";
     document.getElementById("myList").innerHTML = "";
+    document.querySelector(".divBox3").style.display = "none";
+    document.querySelector(".divBox2").style.display = "block";
     flyhavner = [];
     getXML("merged.xml", function (xml) {
-        var airport, element, list, item, link, nyListe, id, row, getInput, inputen, filter, ul, li, a;
+        var airport, element, list, item, link, nyListe, id, row, getInput, inputen, filter, ul, li, a, button;
 
 
         airport = xml.getElementsByTagName("airport");
@@ -62,8 +84,10 @@ function run(){
                 evt.target.className = "active";
             }
 
+
             nyListe.addEventListener('click', listeTrykk, false);
             function listeTrykk(evt) {
+                document.getElementById("velkommen").style.display = "none";
                 document.querySelector(".hide").style.display = "block";
                 airport = xml.getElementsByTagName("airport");
                 for (var i = 0; i < airport.length; i++) {
@@ -72,13 +96,13 @@ function run(){
 
                     row = document.getElementsByClassName("tr2")[i];
 
-                    if(row != null){
+                    if (row != null) {
                         if (element.textContent === id) {
                             row.style.display = "block";
-                        }else{
+                        } else {
                             row.style.display = "none";
                         }
-                    }else{
+                    } else {
                     }
                 }
             }
@@ -99,8 +123,11 @@ function run(){
                     }
                 }
             }
+
         }
     });
 }
+
+
 run();
 

@@ -18,7 +18,7 @@ header{
     margin-top: 25px;
     float: left;
     width: 15%;
-    height: 622px;
+    height: 483px;
 }
 
 
@@ -31,10 +31,11 @@ header{
 
 .divBox3{
     margin-top: 20px;
-    width: 100%;
+    width: 85%;
     position: relative;
     overflow:hidden;
 }
+
 
 .border2:hover::-webkit-scrollbar, ul::-webkit-scrollbar  {
     width: 10px;
@@ -73,8 +74,9 @@ body {
     font-size: 22px;
     padding: 12px 20px 12px 40px;
     border: 1px solid #ddd;
-    margin: 0 0 28px 10px;
+    margin: 0 0 10px 10px;
     height: 55px;
+    border-radius: 3px;
 }
 
 ul{
@@ -114,29 +116,15 @@ li:hover {
     cursor: pointer;
 }
 
-form#table{
+form#table, form#table2{
     width: 100%;
     height: 698px;
 }
 
-form#table2{
-    width: 100%;
-    margin-left: 284px;
-}
-
-.planeTable{
+.planeTable, .weatherTable{
     height: 100%;
     display: table;
     width: 100%;
-    border-spacing: 80px 3px;
-    overflow: hidden;
-}
-
-.weatherTable{
-    /*margin-left: 284px;*/
-    height: 100%;
-    display: table;
-    width: 85%;
     border-spacing: 80px 3px;
     overflow: hidden;
 }
@@ -232,6 +220,52 @@ a#link:visited{
     vertical-align: sub;
 }
 
+div#velkommen{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    color: aliceblue;
+}
+
 .hide{
     display: none;
+}
+
+
+input#reloadAjax{
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 93.3%;
+    font-size: 17px;
+    padding: 12px 20px 12px 40px;
+    border: none;
+    margin: 13px 0 28px 10px;
+    height: 55px;
+    border-radius: 3px;
+    background-color: orange;
+    text-indent: -20px;
+    outline: none;
+}
+
+input#changeTable{
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 93.3%;
+    font-size: 24px;
+    padding: 12px 20px 12px 40px;
+    border: none;
+    margin: 0 0 28px 10px;
+    height: 55px;
+    border-radius: 3px;
+    background-color: orange;
+    text-indent: -20px;
+    outline: none;
+
+}
+
+p{
+    font-size: 30px;
 }

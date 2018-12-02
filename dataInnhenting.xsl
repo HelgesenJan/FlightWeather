@@ -18,13 +18,16 @@ Kontrollert av Jan Helge Helgesen
                 <header>
                 </header>
                 <div class="divBox">
+                    <input id="changeTable" type="button" onclick="changeTable()" value="Check weather data"/>
                     <input id="minInput" placeholder="Search for airport..">
 
                     </input>
                     <div id="myList">
 
                     </div>
+                    <input id="reloadAjax" type="button" onclick="run()" value="Reload airport information"/>
                 </div>
+
 
                 <div class="divBox2">
                     <form id="table">
@@ -33,12 +36,17 @@ Kontrollert av Jan Helge Helgesen
                                 <div class="tr1">
                                     <div class="tc tcO">Date</div>
                                     <div class="tc tcO">Time</div>
-                                    <div class="tc tcO">Arrival</div>
+                                    <div class="tc tcO">Destination</div>
                                     <div class="tc tcO">Flight</div>
                                     <div class="tc tcO">Gate</div>
                                 </div>
                             </div>
                             <div class="border2">
+                                <div id="velkommen">
+                                    <h1>Welcome!</h1>
+                                    <p>This website is part of the XML subject at the University of South-Eastern Norway.</p>
+                                    <p>The website allows the user to check out Avinor's flight data for each norwegian airport<br></br> and Yr's weather data forecast for 6 hour intervals.</p>
+                                </div>
                                 <div class="hide">
                                 <xsl:for-each select="airport/flights/flight">
                                     <xsl:sort select="schedule_time"/>
@@ -52,7 +60,6 @@ Kontrollert av Jan Helge Helgesen
                                 </xsl:for-each>
                                 </div>
                             </div>
-                            <input type="button" onclick="run()">RELOAD AIRPORTS</input>
                         </div>
                     </form>
                 </div>
@@ -62,11 +69,11 @@ Kontrollert av Jan Helge Helgesen
                         <div class="weatherTable">
                             <div class="border1">
                                 <div class="tr3">
-                                    <div class="tc tcO">Fylke</div>
-                                    <div class="tc tcO"><xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=1]/@from, 12, 2)"/> - <xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=1]/@to, 12, 2)"/></div>
-                                    <div class="tc tcO"><xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=2]/@from, 12, 2)"/> - <xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=2]/@to, 12, 2)"/></div>
-                                    <div class="tc tcO"><xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=3]/@from, 12, 2)"/> - <xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=3]/@to, 12, 2)"/></div>
-                                    <div class="tc tcO"><xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=4]/@from, 12, 2)"/> - <xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=4]/@to, 12, 2)"/></div>
+                                    <div class="tc tcO">County</div>
+                                    <div class="tc tcO">Kl. <xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=1]/@from, 12, 2)"/> - <xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=1]/@to, 12, 2)"/></div>
+                                    <div class="tc tcO">Kl. <xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=2]/@from, 12, 2)"/> - <xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=2]/@to, 12, 2)"/></div>
+                                    <div class="tc tcO">Kl. <xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=3]/@from, 12, 2)"/> - <xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=3]/@to, 12, 2)"/></div>
+                                    <div class="tc tcO">Kl. <xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=4]/@from, 12, 2)"/> - <xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=4]/@to, 12, 2)"/></div>
                                 </div>
                             </div>
                             <div class="border2">
@@ -86,9 +93,10 @@ Kontrollert av Jan Helge Helgesen
                 </div>
                 
                 <footer>
-                    <img src="./Bilde/avinor.jpg" class="avinor" alt="avinor"/>
-                    Flightdata gathered from <a id="link" target="_blank" href="https://avinor.no/">www.avinor.no</a>.
-                    <img src="./Bilde/avinor.jpg" class="avinor" alt="avinor"/>
+
+                    Flightdata gathered from <a id="link" target="_blank" href="https://avinor.no/">www.avinor.no</a> &#160;&#160;&#160;<img src="./Bilde/avinor.png" class="avinor" alt="avinor"/> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                    Weather forecast from <a id="link" target="_blank" href="https://yr.no/">www.yr.no</a>, delivered by the Norwegian Meteorological Institute and NRK &#160;&#160;&#160;<img src="./Bilde/yr.png" class="avinor" alt="avinor"/>
+
                 </footer>
             </body>
 

@@ -51,8 +51,8 @@ if (file_exists($cacheName) && (filemtime($cacheName) > (time() - $ageInSeconds 
         array_push($xmlVaer, $dom);
 
         $dom->load("https://www.yr.no/sted/Norge/" . $vaerdataKoder[$i] . "/varsel.xml");
-    }
 
+    }
 
     $rootElement = $merged->createElement("Data");
     $merged->appendChild($rootElement);
