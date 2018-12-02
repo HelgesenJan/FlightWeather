@@ -69,7 +69,7 @@ Kontrollert av Jan Helge Helgesen
                         <div class="weatherTable">
                             <div class="border1">
                                 <div class="tr3">
-                                    <div class="tc tcO">Fylke</div>
+                                    <div class="tc tcO">County</div>
                                     <div class="tc tcO">Kl. <xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=1]/@from, 12, 2)"/> - <xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=1]/@to, 12, 2)"/></div>
                                     <div class="tc tcO">Kl. <xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=2]/@from, 12, 2)"/> - <xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=2]/@to, 12, 2)"/></div>
                                     <div class="tc tcO">Kl. <xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=3]/@from, 12, 2)"/> - <xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=3]/@to, 12, 2)"/></div>
@@ -96,9 +96,10 @@ Kontrollert av Jan Helge Helgesen
 
 
                 <footer>
-                    <img src="./Bilde/avinor.jpg" class="avinor" alt="avinor"/>
-                    Flightdata gathered from <a id="link" target="_blank" href="https://avinor.no/">www.avinor.no</a>.
-                    <img src="./Bilde/avinor.jpg" class="avinor" alt="avinor"/>
+
+                    Flightdata gathered from <a id="link" target="_blank" href="https://avinor.no/">www.avinor.no</a> &#160;&#160;&#160;<img src="./Bilde/avinor.png" class="avinor" alt="avinor"/> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                    Weather forecast from <a id="link" target="_blank" href="https://yr.no/">www.yr.no</a>, delivered by the Norwegian Meteorological Institute and NRK &#160;&#160;&#160;<img src="./Bilde/yr.png" class="avinor" alt="avinor"/>
+
                 </footer>
             </body>
 
