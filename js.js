@@ -1,9 +1,9 @@
 /*
-Laget av Jan Helge Helgesen
-Kontrollert av Joakim Selvik
+Skrevet av Jan Helge Helgesen (kandidatnr: 120)
+Kontrollert av Joakim Selvik (kandidatnr: 118)
  */
 
-
+// Funksjon som skjuler/viser den respektive tabellen basert på knappetrykk
 function changeTable() {
     var airportTable = document.querySelector(".divBox2");
     var weatherTable = document.querySelector(".divBox3");
@@ -18,14 +18,12 @@ function changeTable() {
         airportTable.style.display = 'block';
         weatherTable.style.display = 'none';
     }
-
-
 }
 
-
+// Oppretter en array som fylles med flyhavner
 var flyhavner = [];
 
-
+// Setter variabelen getXML til en AJAX funksjon med parametere for domenet og callback
 var getXML = function (dom, cb) {
     var xhr = new XMLHttpRequest();
     xhr.open("GET", dom);
@@ -39,43 +37,45 @@ var getXML = function (dom, cb) {
     xhr.send();
 };
 
+// Oppretter en funksjon som kjøres når siden lastes eller blir kalt på
+run();
 function run(){
+    // Gjemmer og viser diverse elementer i siden
     document.querySelector(".hide").style.display = "none";
     document.getElementById("minInput").value = "";
     document.getElementById("myList").innerHTML = "";
     document.querySelector(".divBox3").style.display = "none";
     document.querySelector(".divBox2").style.display = "block";
+    // Setter arrayet flyhavner til tom
     flyhavner = [];
+    // Kaller variabelen getXML og gir den vår samlede fil, samt en xml callback
     getXML("merged.xml", function (xml) {
-        var airport, element, list, item, link, nyListe, id, row, getInput, inputen, filter, ul, li, a, button;
+        var airport, element, list, item, link, id, row, nodes, getInput, inputen, filter, ul, li, a;
 
-
+        // Henter elementene airport i xml fila, går gjennom den og for hvert element så sjekkes det om attributtet "name" eksisterer. Om den gjør det så legges flyhavnen til i arrayet
         airport = xml.getElementsByTagName("airport");
         for (var i = 0; i < airport.length; i++) {
             element = airport[i];
             if (element.getAttribute("name")) {
                 flyhavner.push(element.getAttribute("name"));
             }
+            // Oppretter lista og setter attributter
             list = document.createElement('ul');
             list.setAttribute("tabindex", "1");
             list.setAttribute("id", "minUL");
         }
 
-
+        // Henter verdiene i arrayet og oppretter liste elementer og setter en anchor tag til disse. Lista settes inn i et div element på nettsiden
         for (var j = 0; j < flyhavner.length; j++) {
             item = document.createElement('li');
             item.setAttribute("id", flyhavner[j]);
             link = document.createElement('a');
             item.appendChild(link);
             link.appendChild(document.createTextNode(flyhavner[j]));
-
             list.appendChild(item);
             document.getElementById('myList').appendChild(list);
 
-            nyListe = document.getElementById(flyhavner[j]);
-            nyListe.addEventListener('click', setActive, false);
-
-
+            // Funksjon som setter elementene man trykker på til aktiv
             function setActive(evt) {
                 var elements = document.querySelector(".active");
                 if(elements !== null){
@@ -83,32 +83,35 @@ function run(){
                 }
                 evt.target.className = "active";
             }
+            // Gir lista setActive funksjonen
+            list.addEventListener('click', setActive, false);
 
-
-            nyListe.addEventListener('click', listeTrykk, false);
+            // Funksjon som går gjennom flight elementene i xml fila og sjekker om childNodes av disse er lik tastetrykket. Da viser den elementene og gjemmer de hvis ikke.
             function listeTrykk(evt) {
+                // Gjemmer og viser noen elementer
                 document.getElementById("velkommen").style.display = "none";
                 document.querySelector(".hide").style.display = "block";
-                airport = xml.getElementsByTagName("airport");
-                for (var i = 0; i < airport.length; i++) {
-                    element = airport[i];
-                    id = evt.target.id;
-
+                id = evt.target.id;
+                var flight = xml.getElementsByTagName("flight");
+                for (var i = 0; i < flight.length; i++) {
+                    element = flight[i];
                     row = document.getElementsByClassName("tr2")[i];
+                    nodes = element.childNodes[11];
 
-                    if (row != null) {
-                        if (element.textContent === id) {
-                            row.style.display = "block";
-                        } else {
-                            row.style.display = "none";
-                        }
+                    if (nodes.textContent === id) {
+                        row.style.display = "block";
                     } else {
+                        row.style.display = "none";
                     }
                 }
             }
+            // Gir lista listeTrykk funksjonen
+            list.addEventListener('click', listeTrykk, false);
 
+            // Henter input feltet
             getInput = document.getElementById("minInput");
-            getInput.addEventListener('keyup', filtrerSok, false);
+
+            // Funksjon som filtrerer for søk i lista
             function filtrerSok() {
                 inputen = document.getElementById("minInput");
                 filter = inputen.value.toUpperCase();
@@ -123,11 +126,12 @@ function run(){
                     }
                 }
             }
+            // Gir inputen funksjonen filtrerSok
+            getInput.addEventListener('keyup', filtrerSok, false);
 
         }
     });
 }
 
 
-run();
 

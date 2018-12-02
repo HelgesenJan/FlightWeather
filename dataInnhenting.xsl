@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!--
-Laget av Joakim Selvik
-Kontrollert av Jan Helge Helgesen
+Laget av Joakim Selvik (kandidatnr: 118)
+Kontrollert av Jan Helge Helgesen (kandidatnr: 120)
 -->
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
