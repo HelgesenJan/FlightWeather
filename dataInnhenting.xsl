@@ -26,10 +26,6 @@ Kontrollert av Jan Helge Helgesen
                     </div>
                 </div>
 
-                <table id="vaertable">
-
-                </table>
-
                 <div class="divBox2">
                     <form id="table">
                         <div class="planeTable">
@@ -60,6 +56,37 @@ Kontrollert av Jan Helge Helgesen
                         </div>
                     </form>
                 </div>
+
+                <div class="divBox3">
+                    <form id="table2">
+                        <div class="weatherTable">
+                            <div class="border1">
+                                <div class="tr3">
+                                    <div class="tc tcO">Fylke</div>
+                                    <div class="tc tcO"><xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=1]/@from, 12, 2)"/> - <xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=1]/@to, 12, 2)"/></div>
+                                    <div class="tc tcO"><xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=2]/@from, 12, 2)"/> - <xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=2]/@to, 12, 2)"/></div>
+                                    <div class="tc tcO"><xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=3]/@from, 12, 2)"/> - <xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=3]/@to, 12, 2)"/></div>
+                                    <div class="tc tcO"><xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=4]/@from, 12, 2)"/> - <xsl:value-of select="substring(weatherdata/forecast/tabular/time[position()=4]/@to, 12, 2)"/></div>
+                                </div>
+                            </div>
+                            <div class="border2">
+                                <xsl:for-each select="weatherdata/forecast">
+                                    <xsl:sort select="text/location/@name"/>
+                                    <div class="tr4">
+                                        <div class="tc tcY"><xsl:value-of select="substring-before(text/location/@name, 'fylke')"/></div>
+                                        <div class="tc tcF"><xsl:value-of select="tabular/time[position()=1]/symbol/@name"/>&#160;&#160;<xsl:value-of select="tabular/time[position()=1]/temperature/@value"/>&#x2103;</div>
+                                        <div class="tc tcF"><xsl:value-of select="tabular/time[position()=2]/symbol/@name"/>&#160;&#160;<xsl:value-of select="tabular/time[position()=2]/temperature/@value"/>&#x2103;</div>
+                                        <div class="tc tcF"><xsl:value-of select="tabular/time[position()=3]/symbol/@name"/>&#160;&#160;<xsl:value-of select="tabular/time[position()=3]/temperature/@value"/>&#x2103;</div>
+                                        <div class="tc tcF"><xsl:value-of select="tabular/time[position()=4]/symbol/@name"/>&#160;&#160;<xsl:value-of select="tabular/time[position()=4]/temperature/@value"/>&#x2103;</div>
+                                    </div>
+                                </xsl:for-each>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+
+
 
                 <footer>
                     <img src="./Bilde/avinor.jpg" class="avinor" alt="avinor"/>

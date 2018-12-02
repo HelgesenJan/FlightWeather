@@ -29,6 +29,13 @@ header{
     overflow:hidden;
 }
 
+.divBox3{
+    margin-top: 20px;
+    width: 100%;
+    position: relative;
+    overflow:hidden;
+}
+
 .border2:hover::-webkit-scrollbar, ul::-webkit-scrollbar  {
     width: 10px;
 }
@@ -112,6 +119,11 @@ form#table{
     height: 698px;
 }
 
+form#table2{
+    width: 100%;
+    margin-left: 284px;
+}
+
 .planeTable{
     height: 100%;
     display: table;
@@ -120,30 +132,39 @@ form#table{
     overflow: hidden;
 }
 
+.weatherTable{
+    /*margin-left: 284px;*/
+    height: 100%;
+    display: table;
+    width: 85%;
+    border-spacing: 80px 3px;
+    overflow: hidden;
+}
+
 .tc{
     display: table-cell;
 }
 
-.tr1, .tr2{
+.tr1, .tr2, .tr3, .tr4{
     display: table-row;
     text-align: center;
 }
 
-.tr1{
+.tr1, .tr3{
     height: 50px;
     font-size: 30px;
     line-height: 50px;
     table-layout: fixed;
 }
 
-.tr2{
+.tr2, .tr4{
     font-size: 18px;
     line-height: 50px;
     overflow: hidden;
 }
 
 .tcO{
-    color: orange;
+    color: #FFA500;
 }
 
 .tcO, .tcF, .tcY{
@@ -159,7 +180,7 @@ form#table{
 }
 
 .border1{
-    border: 2px solid orange;
+    border: 2px solid #FFA500;
     border-radius: 10px;
     width: 99.7%;
 }
