@@ -40,6 +40,7 @@ var getXML = function (dom, cb) {
 };
 
 function run(){
+    document.querySelector(".hide").style.display = "none";
     document.getElementById("minInput").value = "";
     document.getElementById("myList").innerHTML = "";
     document.querySelector(".divBox3").style.display = "none";
