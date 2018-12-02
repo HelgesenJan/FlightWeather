@@ -84,10 +84,7 @@ Kontrollert av Jan Helge Helgesen
                         </div>
                     </form>
                 </div>
-
-
-
-
+                
                 <footer>
                     <img src="./Bilde/avinor.jpg" class="avinor" alt="avinor"/>
                     Flightdata gathered from <a id="link" target="_blank" href="https://avinor.no/">www.avinor.no</a>.
