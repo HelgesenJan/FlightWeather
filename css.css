@@ -17,7 +17,7 @@ header{
     margin-top: 25px;
     float: left;
     width: 15%;
-    height: 483px;
+    height: 485px;
 }
 
 
@@ -221,6 +221,7 @@ a#link:visited{
 
 div#velkommen{
     position: absolute;
+    width: 70%;
     top: 50%;
     left: 50%;
     margin-right: -50%;
@@ -268,3 +269,4 @@ input#changeTable{
 p{
     font-size: 30px;
 }
+

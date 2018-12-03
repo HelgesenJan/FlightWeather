@@ -25,7 +25,7 @@ Kontrollert av Jan Helge Helgesen (kandidatnr: 120)
                     <div id="myList">
 
                     </div>
-                    <input id="reloadAjax" type="button" onclick="run()" value="Reload airport information"/>
+                    <input id="reloadAjax" type="button" onclick="run()" value="Reload list with new airports"/>
                 </div>
 
 
@@ -44,8 +44,8 @@ Kontrollert av Jan Helge Helgesen (kandidatnr: 120)
                             <div class="border2">
                                 <div id="velkommen">
                                     <h1>Welcome!</h1>
-                                    <p>This website is part of the XML subject at the University of South-Eastern Norway.</p>
-                                    <p>The website allows the user to check out Avinor's flight data for each norwegian airport<br></br> and Yr's weather data forecast for 6 hour intervals.</p>
+                                    <p>This website is part of the XML course at the University of South-Eastern Norway.</p>
+                                    <p>The website allows the user to check out Avinor's flight data for each norwegian airport and Yr's weather data forecast for 6 hour intervals.</p>
                                 </div>
                                 <div class="hide">
                                 <xsl:for-each select="airport/flights/flight">

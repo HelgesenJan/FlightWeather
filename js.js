@@ -3,6 +3,7 @@ Skrevet av Jan Helge Helgesen (kandidatnr: 120)
 Kontrollert av Joakim Selvik (kandidatnr: 118)
  */
 
+
 // Funksjon som skjuler/viser den respektive tabellen basert på knappetrykk
 function changeTable() {
     var airportTable = document.querySelector(".divBox2");
@@ -13,10 +14,20 @@ function changeTable() {
         changeTable.value = 'Check airport data';
         airportTable.style.display = 'none';
         weatherTable.style.display = 'block';
+        document.getElementById("reloadAjax").style.backgroundColor = "transparent";
+        document.getElementById("reloadAjax").value = "";
+        document.getElementById("reloadAjax").style.cursor = "none";
+        document.getElementById("reloadAjax").style.pointerEvents = "none";
+        document.querySelector(".divBox").style.height = "555px";
     }else{
         changeTable.value = 'Check weather data';
         airportTable.style.display = 'block';
         weatherTable.style.display = 'none';
+        document.getElementById("reloadAjax").style.backgroundColor = 'orange';
+        document.getElementById("reloadAjax").value = "Reload list with new airports";
+        document.getElementById("reloadAjax").style.cursor = "pointer";
+        document.getElementById("reloadAjax").style.pointerEvents = "auto";
+        document.querySelector(".divBox").style.height = "485px";
     }
 }
 
@@ -86,7 +97,7 @@ function run(){
             // Gir lista setActive funksjonen
             list.addEventListener('click', setActive, false);
 
-            // Funksjon som går gjennom flight elementene i xml fila og sjekker om childNodes av disse er lik tastetrykket. Da viser den elementene og gjemmer de hvis ikke.
+            // Funksjon som går gjennom flight elementene i xml fila og sjekker om childNodes av disse er lik tastetrykket.
             function listeTrykk(evt) {
                 // Gjemmer og viser noen elementer
                 document.getElementById("velkommen").style.display = "none";
