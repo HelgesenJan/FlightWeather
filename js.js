@@ -3,33 +3,71 @@ Skrevet av Jan Helge Helgesen (kandidatnr: 120)
 Kontrollert av Joakim Selvik (kandidatnr: 118)
  */
 
-// Funksjon som skjuler/viser den respektive tabellen basert på knappetrykk
+// Funksjon som skjuler/viser den respektive tabellen og diverse andre ting basert på knappetrykk
 function changeTable() {
     var airportTable = document.querySelector(".divBox2");
     var weatherTable = document.querySelector(".divBox3");
     var changeTable = document.getElementById("changeTable");
     var reloadAjax = document.getElementById("reloadAjax");
-    var divBox = document.querySelector(".divBox");
+    var lista = document.getElementById("myList");
+    var input = document.getElementById("minInput");
+    var clock = document.getElementById("clock");
+    var hours = document.getElementById("hours");
+    var minutes = document.getElementById("minutes");
+    var curTime = document.getElementById("currentTime");
+    var elements = document.querySelector(".active");
+    var hide = document.querySelector(".hide");
+    var welcome = document.getElementById("velkommen");
 
     if(airportTable.style.display == 'block'){
-        changeTable.value = 'Check airport data';
+        changeTable.value = '< Back';
+        changeTable.style.fontSize = "28px";
         airportTable.style.display = 'none';
         weatherTable.style.display = 'block';
-        reloadAjax.style.backgroundColor = "transparent";
-        reloadAjax.value = "";
-        reloadAjax.style.cursor = "none";
-        reloadAjax.style.pointerEvents = "none";
-        divBox.style.height = "555px";
+        reloadAjax.style.display = "none";
+        lista.style.display = "none";
+        input.style.display = "none";
+        hours.style.display = "inline";
+        minutes.style.display = "inline";
+        clock.style.display = "block";
+        curTime.style.display = "block";
+        welcome.style.display = "block";
     }else{
         changeTable.value = 'Check weather data';
+        changeTable.style.fontSize = "24px";
         airportTable.style.display = 'block';
         weatherTable.style.display = 'none';
-        reloadAjax.style.backgroundColor = 'orange';
-        reloadAjax.value = "Reload list with new airports";
-        reloadAjax.style.cursor = "pointer";
-        reloadAjax.style.pointerEvents = "auto";
-        divBox.style.height = "485px";
+        reloadAjax.style.display = "block";
+        lista.style.display = "block";
+        input.style.display = "block";
+        hours.style.display = "none";
+        minutes.style.display = "none";
+        clock.style.display = "none";
+        curTime.style.display = "none";
+        elements.classList.remove("active");
+        hide.style.display = "none";
     }
+}
+
+function getTime(){
+    var date = new Date();
+    var hours = date.getHours();
+    var minutes = date.getMinutes();
+
+    hours = checkTime(hours);
+    minutes = checkTime(minutes);
+
+    document.getElementById("hours").textContent = hours;
+    document.getElementById("minutes").textContent = minutes;
+
+    var timeOut = setTimeout("getTime()", 500);
+}
+
+function checkTime(id){
+    if(id < 10){
+        id = "0" + id;
+    }
+    return id;
 }
 
 // Oppretter en array som fylles med flyhavner

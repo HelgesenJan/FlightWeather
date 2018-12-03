@@ -89,10 +89,5 @@ $xsl->load("dataInnhenting.xsl");
 $xslt = new XSLTProcessor();
 $xslt->importStylesheet($xsl);
 echo $xslt->transformToXML($xml);
-
-
-
-
-
 ?>
 

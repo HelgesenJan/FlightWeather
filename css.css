@@ -263,10 +263,30 @@ input#changeTable{
     background-color: orange;
     text-indent: -20px;
     outline: none;
-
 }
 
 p{
     font-size: 30px;
+}
+
+#clock{
+    display: none;
+    margin-top: 130px;
+}
+#hours, #minutes{
+    display: none;
+    text-align: center;
+    background-color: aliceblue;
+    margin: 0 0 28px 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 4);
+    padding: 15px;
+    font-size: 85px;
+}
+
+#currentTime{
+    display: none;
+    color: orange;
+    font-size: 40px;
+    margin: 0 0 28px 20px;
 }
 
