@@ -15,15 +15,23 @@ Kontrollert av Jan Helge Helgesen (kandidatnr: 120)
                 <title>Flyplass oversikt</title>
                 <link rel="stylesheet" type="text/css" href="css.css"/>
             </head>
-            <body id="body">
+            <body id="body" onload="getTime()">
                 <header>
                 </header>
                 <!--Opprettet en divBox som inneholder en listefunksjon, søkefunksjon og knapper for
                  å bytte til værdata og for å laste inn flyplasser på nytt (Ajax)-->
                 <div class="divBox">
                     <input id="changeTable" type="button" onclick="changeTable()" value="Check weather data"/>
-                    <input id="minInput" placeholder="Search for airport.."/>
-                    <div id="myList"/>
+                    <input id="minInput" placeholder="Search for airport..">
+                    </input>
+                    <div id="myList">
+                    </div>
+                    <div id="clock">
+                        <p id="currentTime">Current time:</p>
+                        <div id="hours">00</div>
+                        <div id="minutes">00</div>
+                    </div>
+
                     <input id="reloadAjax" type="button" onclick="run()" value="Reload list with new airports"/>
                 </div>
 
