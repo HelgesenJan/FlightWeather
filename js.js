@@ -3,7 +3,7 @@ Skrevet av Jan Helge Helgesen (kandidatnr: 120)
 Kontrollert av Joakim Selvik (kandidatnr: 118)
  */
 
-// Funksjon som skjuler/viser den respektive tabellen og diverse andre ting basert på knappetrykk
+// Funksjon som skjuler/viser den inaktive/aktive tabellen og diverse andre ting basert på knappetrykk
 function changeTable() {
     var airportTable = document.querySelector(".divBox2");
     var weatherTable = document.querySelector(".divBox3");
@@ -49,6 +49,7 @@ function changeTable() {
     }
 }
 
+// Funksjon som henter nåværende tid
 function getTime(){
     var date = new Date();
     var hours = date.getHours();
@@ -63,6 +64,7 @@ function getTime(){
     var timeOut = setTimeout("getTime()", 500);
 }
 
+// Funksjon som sjekker tiden
 function checkTime(id){
     if(id < 10){
         id = "0" + id;

@@ -7,7 +7,7 @@ Kontrollert av Jan Helge Helgesen (kandidatnr: 120)
 
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-    <!--Oppretter et html dokument og lager et template for å kunne hente data fra XML dokumentet -->
+    <!--Definerer formatet til html og lager et template til rooten-->
     <xsl:output method="html" />
     <xsl:template match="Data">
         <html>
@@ -18,14 +18,12 @@ Kontrollert av Jan Helge Helgesen (kandidatnr: 120)
             <body id="body" onload="getTime()">
                 <header>
                 </header>
-                <!--Opprettet en divBox som inneholder en listefunksjon, søkefunksjon og knapper for
-                 å bytte til værdata og for å laste inn flyplasser på nytt (Ajax)-->
+                <!--Opprettet en divBox som inneholder en listefunksjon, søkefunksjon, AJAX oppdatering, klokke og knapp for
+                 å bytte til værdata og tilbake til flydata. Denne delen er laget av Jan Helge Helgesen (kandidatnr: 120) -->
                 <div class="divBox">
                     <input id="changeTable" type="button" onclick="changeTable()" value="Check weather data"/>
-                    <input id="minInput" placeholder="Search for airport..">
-                    </input>
-                    <div id="myList">
-                    </div>
+                    <input id="minInput" placeholder="Search for airport.."/>
+                    <div id="myList"/>
                     <div id="clock">
                         <p id="currentTime">Current time:</p>
                         <div id="hours">00</div>
@@ -58,7 +56,7 @@ Kontrollert av Jan Helge Helgesen (kandidatnr: 120)
                                     <p>The website allows the user to check out Avinor's flight data for each norwegian airport and Yr's weather data forecast for 6 hour intervals.</p>
                                 </div>
                                 <div class="hide">
-                                <!--For-each løkke som går igjennom merged.xml/chached.xml og henter inn valgte flydata-->
+                                <!--For-each løkke som går igjennom merged.xml og henter inn valgte flydata-->
                                 <xsl:for-each select="airport/flights/flight">
                                     <!--sorterer dataen på dato-->
                                     <xsl:sort select="schedule_time"/>
@@ -79,13 +77,13 @@ Kontrollert av Jan Helge Helgesen (kandidatnr: 120)
 
                 <!--Variabel for stien til dataen for værmelding for å spare lengde på kode-->
                 <xsl:variable name="wholePath" select="weatherdata/forecast/tabular/time"/>
-                <!--Oppretter en divBox for en tabell som inneholder Fylke og værvarsel for de neste 24 timene, fordelt utover en periode på 6 timer-->
+                <!--Oppretter en divBox for en tabell som inneholder Fylke og værvarsel for de neste 24 timene, fordelt utover perioder på 6 timer-->
                 <div class="divBox3">
                     <form id="table2">
                         <div class="weatherTable">
                             <!--En border som inneholder tabellrad for informasjon om hva som ligger i tabellen-->
                             <div class="border1">
-                                <!--Opprettet en tabellrad som viser 'County', og kl slett for de neste periodene. Kl. slett endrer seg dynamisk (ved oppdatering av xml)-->
+                                <!--Opprettet en tabellrad som viser 'County', og kl slett for de neste periodene. Kl. slett endrer seg dynamisk (ved oppdatering av merged.xml)-->
                                 <div class="tr3">
                                     <div class="tc tcO">County</div>
                                     <div class="tc tcO">Kl. <xsl:value-of select="substring($wholePath[position()=1]/@from, 12, 2)"/> - <xsl:value-of select="substring($wholePath[position()=1]/@to, 12, 2)"/></div>
@@ -99,7 +97,7 @@ Kontrollert av Jan Helge Helgesen (kandidatnr: 120)
                             <div class="border2">
                                 <!--Variabel for stien til dataen for værmelding for å spare lengde på kode-->
                                 <xsl:variable name="forecastPath" select="weatherdata/forecast"/>
-                                <!--For-each løkke som går igjennom merged.xml/chached.xml og henter inn valgte flydata-->
+                                <!--For-each løkke som går igjennom merged.xml og henter inn valgte flydata-->
                                 <xsl:for-each select="$forecastPath">
                                     <xsl:sort select="text/location/@name"/>
                                     <!--Ny tabellrad for valgte værdata (Fylke, Type vær og temperatur på de forskjellige tidspunkter)-->
@@ -119,8 +117,10 @@ Kontrollert av Jan Helge Helgesen (kandidatnr: 120)
 
                 <!--Informasjon om hvor vi har hentet data med lenker til sidene-->
                 <footer>
-                    Flight data gathered from <a id="link" target="_blank" href="https://avinor.no/">www.avinor.no</a> &#160;&#160;&#160;<a id="link" target="_blank" href="https://avinor.no/"><img src="./Bilde/avinor.png" class="avinor" alt="avinor"/></a>  &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
-                    Weather forecast from <a id="link" target="_blank" href="https://yr.no/">www.yr.no</a>, delivered by the Norwegian Meteorological Institute and NRK &#160;&#160;&#160;<a id="link" target="_blank" href="https://yr.no/"><img src="./Bilde/yr.png" class="avinor" alt="avinor"/></a>
+                    Flight data gathered from <a id="link" target="_blank" href="https://avinor.no/">www.avinor.no</a> &#160;&#160;&#160;
+                    <a id="link" target="_blank" href="https://avinor.no/"><img src="./Bilde/avinor.png" class="avinor" alt="avinor"/></a>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;
+                    Weather forecast from <a id="link" target="_blank" href="https://yr.no/">www.yr.no</a>, delivered by the Norwegian Meteorological Institute and NRK &#160;&#160;&#160;
+                    <a id="link" target="_blank" href="https://yr.no/"><img src="./Bilde/yr.png" class="avinor" alt="avinor"/></a>
                 </footer>
             </body>
 

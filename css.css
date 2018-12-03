@@ -36,6 +36,7 @@ header{
 }
 
 
+/*Styling av scrollbarer. Disse fungerer kun i Google Chrome. PS: Se 'videreutvikling' i rapporten for denne*/
 .border2:hover::-webkit-scrollbar, ul::-webkit-scrollbar  {
     width: 10px;
 }
@@ -288,6 +289,6 @@ p{
     display: none;
     color: orange;
     font-size: 40px;
-    margin: 0 0 28px 20px;
+    margin: 0 0 28px 25px;
 }
 
