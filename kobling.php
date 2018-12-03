@@ -51,23 +51,23 @@ if (file_exists($cacheName) && (filemtime($cacheName) > (time() - $ageInSeconds 
 
     // Går gjennom dataen i arrayet og legger til all dataen for hvert airport element
     for($i = 0; $i < count($xmlLufthavner); $i++){
-        $value = $xmlLufthavner[$i];
-        $items = $value->getElementsByTagName('airport');
-        for($j = 0; $j <$items->length; $j++){
-                $item2 = $items->item($j);
-                $item1 = $merged->importNode($item2, true);
-                $root->appendChild($item1);
+        $index = $xmlLufthavner[$i];
+        $elements = $index->getElementsByTagName('airport');
+        for($j = 0; $j <$elements->length; $j++){
+                $elements2 = $elements->item($j);
+                $elements1 = $merged->importNode($elements2, true);
+                $root->appendChild($elements1);
         }
     }
 
     // Går gjennom dataen i arrayet og legger til all dataen for hvert weatherdata element
     for($i = 0; $i < count($xmlVaer); $i++){
-        $value = $xmlVaer[$i];
-        $items = $value->getElementsByTagName('weatherdata');
-        for($j = 0; $j < $items->length; $j++){
-            $item2 = $items->item($j);
-            $item1 = $merged->importNode($item2, true);
-            $root->appendChild($item1);
+        $index = $xmlVaer[$i];
+        $elements = $index->getElementsByTagName('weatherdata');
+        for($j = 0; $j < $elements->length; $j++){
+            $elements2 = $elements->item($j);
+            $elements1 = $merged->importNode($elements2, true);
+            $root->appendChild($elements1);
         }
     }
 
