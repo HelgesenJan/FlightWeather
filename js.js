@@ -3,31 +3,32 @@ Skrevet av Jan Helge Helgesen (kandidatnr: 120)
 Kontrollert av Joakim Selvik (kandidatnr: 118)
  */
 
-
 // Funksjon som skjuler/viser den respektive tabellen basert på knappetrykk
 function changeTable() {
     var airportTable = document.querySelector(".divBox2");
     var weatherTable = document.querySelector(".divBox3");
     var changeTable = document.getElementById("changeTable");
+    var reloadAjax = document.getElementById("reloadAjax");
+    var divBox = document.querySelector(".divBox");
 
     if(airportTable.style.display == 'block'){
         changeTable.value = 'Check airport data';
         airportTable.style.display = 'none';
         weatherTable.style.display = 'block';
-        document.getElementById("reloadAjax").style.backgroundColor = "transparent";
-        document.getElementById("reloadAjax").value = "";
-        document.getElementById("reloadAjax").style.cursor = "none";
-        document.getElementById("reloadAjax").style.pointerEvents = "none";
-        document.querySelector(".divBox").style.height = "555px";
+        reloadAjax.style.backgroundColor = "transparent";
+        reloadAjax.value = "";
+        reloadAjax.style.cursor = "none";
+        reloadAjax.style.pointerEvents = "none";
+        divBox.style.height = "555px";
     }else{
         changeTable.value = 'Check weather data';
         airportTable.style.display = 'block';
         weatherTable.style.display = 'none';
-        document.getElementById("reloadAjax").style.backgroundColor = 'orange';
-        document.getElementById("reloadAjax").value = "Reload list with new airports";
-        document.getElementById("reloadAjax").style.cursor = "pointer";
-        document.getElementById("reloadAjax").style.pointerEvents = "auto";
-        document.querySelector(".divBox").style.height = "485px";
+        reloadAjax.style.backgroundColor = 'orange';
+        reloadAjax.value = "Reload list with new airports";
+        reloadAjax.style.cursor = "pointer";
+        reloadAjax.style.pointerEvents = "auto";
+        divBox.style.height = "485px";
     }
 }
 
@@ -139,7 +140,6 @@ function run(){
             }
             // Gir inputen funksjonen filtrerSok
             getInput.addEventListener('keyup', filtrerSok, false);
-
         }
     });
 }

@@ -11,12 +11,7 @@ $merged = new DOMDocument("1.0", "UTF-8");
 $xmlLufthavner = array();
 $xmlVaer = array();
 
-// Oppretter arrays som inneholder delen av URL
-//$nettsideKoder = array("DLD", "OSL", "GLL", "ALF", "BVG", "BJF", "HFT", "HAA", "HVG", "KKN", "LKL", "MEH", "VDS",
-//    "VAW", "HMR", "BGO", "SRP", "KSU", "MOL", "HOV", "AES", "ANX", "BOO", "BNN", "EVE", "LKN", "MQN", "MJF", "NVK",
-//    "RET", "SSJ", "SKN", "SVJ", "VRY", "VDB", "HAU", "SVG", "FRO", "FDE", "SDN", "SOG", "LYR", "OSY", "RVK", "TRD",
-//    "RRS", "OLA", "NTB", "SKE", "BDU", "SOJ", "TOS", "FAN", "KRS", "TRF");
-
+// Oppretter arrays som inneholder del av URL
 $vaerdataKoder = array("Aust-Agder/Arendal/Aust-Agder_fylke","Buskerud/Drammen/Buskerud_fylke","Finnmark/Vadsø/Finnmark_fylke",
     "Hedmark/Hamar/Hedmark_fylke","Hordaland/Bergen/Hordaland_fylke","Trøndelag/Trondheim/Sør-Trøndelag_fylke","Telemark/Skien/Telemark_fylke",
     "Møre_og_Romsdal/Molde/Møre_og_Romsdal_fylke","Nordland/Bodø/Nordland_fylke","Oslo/Oslo/Akershus_fylke","Trøndelag/Steinkjer/Nord-Trøndelag_fylke",
@@ -27,13 +22,6 @@ $nettsideKoder = array("AES","ALF","ANX","BDU","BGO","BJF","BNN","BOO","BVG","DL
     "GLL","HAA","HAU","HFT","HMR","HOV","HVG","KKN","KRS","KSU","LKL","LKN","LYR","MEH",
     "MJF","MOL","MQN","NTB","NVK","OLA","OSL","OSY","RET","RRS","RVK","SDN","SKE","SKN",
     "SOG","SOJ","SRP","SSJ","SVG","SVJ","TOS","TRD","TRF","VAW","VDB","VDS","VRY");
-
-//$vaerdataKoder = array("Oslo/Oslo/Akershus_fylke","Aust-Agder/Arendal/Aust-Agder_fylke","Buskerud/Drammen/Buskerud_fylke",
-//    "Finnmark/Vadsø/Finnmark_fylke","Hedmark/Hamar/Hedmark_fylke","Hordaland/Bergen/Hordaland_fylke",
-//    "Møre_og_Romsdal/Molde/Møre_og_Romsdal_fylke","Nordland/Bodø/Nordland_fylke","Trøndelag/Steinkjer/Nord-Trøndelag_fylke",
-//    "Oppland/Lillehammer/Oppland_fylke","Oslo/Oslo/Oslo_fylke","Rogaland/Stavanger/Rogaland_fylke","Sogn_og_Fjordane/Leikanger/Sogn_og_Fjordane_fylke",
-//    "Svalbard/Svalbard_lufthavn_målestasjon","Trøndelag/Trondheim/Sør-Trøndelag_fylke","Telemark/Skien/Telemark_fylke","Troms/Tromsø/Troms_fylke",
-//    "Vest-Agder/Kristiansand/Vest-Agder_fylke","Vestfold/Tønsberg/Vestfold_fylke","Østfold/Sarpsborg/Østfold_fylke");
 
 // Oppretter en cache fil og setter ventetiden til 1 time
 $cacheName = 'cached.xml';
@@ -88,16 +76,16 @@ if (file_exists($cacheName) && (filemtime($cacheName) > (time() - $ageInSeconds 
     $xml = new DOMDocument();
     $xml->load("merged.xml");
 
-    // Setter den i merged fila til cache fila
+    // Legger dataen i merged fila i cache fila
     $contents = file_get_contents('merged.xml');
     file_put_contents($cacheName, $contents);
 }
 
-// Laster XSL fila våre
+// Laster XSL fila vår
 $xsl = new DOMDocument();
 $xsl->load("dataInnhenting.xsl");
 
-// Oppretter XSLT prosessor, importerer stylesheet og transformerer til XML
+// Oppretter XSLT prosessor, importerer stylesheet og transformerer XML
 $xslt = new XSLTProcessor();
 $xslt->importStylesheet($xsl);
 echo $xslt->transformToXML($xml);
