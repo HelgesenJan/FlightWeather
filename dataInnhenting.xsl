@@ -46,7 +46,7 @@ Kontrollert av Jan Helge Helgesen (kandidatnr: 120)
                                 <!--Velkomstmelding som dukker opp når man laster inn siden, og forklarer hvordan ting fungerer-->
                                 <div id="velkommen">
                                     <h1>Welcome!</h1>
-                                    <p>This website is part of the XML subject at the University of South-Eastern Norway.</p>
+                                    <p>This website is part of the XML course at the University of South-Eastern Norway.</p>
                                     <p>The website allows the user to check out Avinor's flight data for each norwegian airport and Yr's weather data forecast for 6 hour intervals.</p>
                                 </div>
                                 <div class="hide">
@@ -115,7 +115,7 @@ Kontrollert av Jan Helge Helgesen (kandidatnr: 120)
                     Weather forecast from <a id="link" target="_blank" href="https://yr.no/">www.yr.no</a>, delivered by the Norwegian Meteorological Institute and NRK &#160;&#160;&#160;<a id="link" target="_blank" href="https://yr.no/"><img src="./Bilde/yr.png" class="avinor" alt="avinor"/></a>
                 </footer>
             </body>
-            
+
             <script language="javascript" src="js.js" defer="true">
             </script>
         </html>

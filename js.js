@@ -8,15 +8,27 @@ function changeTable() {
     var airportTable = document.querySelector(".divBox2");
     var weatherTable = document.querySelector(".divBox3");
     var changeTable = document.getElementById("changeTable");
+    var reloadAjax = document.getElementById("reloadAjax");
+    var divBox = document.querySelector(".divBox");
 
     if(airportTable.style.display == 'block'){
         changeTable.value = 'Check airport data';
         airportTable.style.display = 'none';
         weatherTable.style.display = 'block';
+        reloadAjax.style.backgroundColor = "transparent";
+        reloadAjax.value = "";
+        reloadAjax.style.cursor = "none";
+        reloadAjax.style.pointerEvents = "none";
+        divBox.style.height = "555px";
     }else{
         changeTable.value = 'Check weather data';
         airportTable.style.display = 'block';
         weatherTable.style.display = 'none';
+        reloadAjax.style.backgroundColor = 'orange';
+        reloadAjax.value = "Reload list with new airports";
+        reloadAjax.style.cursor = "pointer";
+        reloadAjax.style.pointerEvents = "auto";
+        divBox.style.height = "485px";
     }
 }
 
@@ -86,7 +98,7 @@ function run(){
             // Gir lista setActive funksjonen
             list.addEventListener('click', setActive, false);
 
-            // Funksjon som går gjennom flight elementene i xml fila og sjekker om childNodes av disse er lik tastetrykket. Da viser den elementene og gjemmer de hvis ikke.
+            // Funksjon som går gjennom flight elementene i xml fila og sjekker om childNodes av disse er lik tastetrykket.
             function listeTrykk(evt) {
                 // Gjemmer og viser noen elementer
                 document.getElementById("velkommen").style.display = "none";
@@ -128,7 +140,6 @@ function run(){
             }
             // Gir inputen funksjonen filtrerSok
             getInput.addEventListener('keyup', filtrerSok, false);
-
         }
     });
 }
